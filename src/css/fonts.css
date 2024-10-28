@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Cruinn";
+  src: local("Cruinn Light"),
+    local("Cruinn-Light"),
+    url("/src/fonts/Cruinn\ Light.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Cruinn";
+  src: local("Cruinn Regular"),
+    local("Cruinn-Regular"),
+    url("/src/fonts/Cruinn\ Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Cruinn";
+  src: local("Cruinn Medium"),
+    local("Cruinn-Medium"),
+    url("/src/fonts/Cruinn\ Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Cruinn";
+  src: local("Cruinn Bold"),
+    local("Cruinn-Bold"),
+    url("/src/fonts/Cruinn\ Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Manrope Regular";
+  src: local("Manrope Regular"),
+    local("Manrope-Regular"),
+    url("/src/fonts/Manrope\ Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Albert Sans";
+  src: local("Albert Sans"),
+       local("Albert-Sans"),
+       url("/src/fonts/AlbertSans-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
