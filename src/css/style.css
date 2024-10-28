@@ -568,17 +568,15 @@ label {
   padding: 1px 6px 4px;
   border-radius: 20px;
   border: 2px solid #BDAB90;
+  display: inline-block;
+  transition: transform 0.5s ease-in-out;
 }
 
-.fade {
-  transition: opacity 0.5s ease-in-out;
-  opacity: 0;
+.rotate {
+  transform: rotateX(90deg);
 }
 
-.fade-in {
-  transition: opacity 0.5s ease-in-out;
-  opacity: 1;
-}
+
 
 /* radio */
 
