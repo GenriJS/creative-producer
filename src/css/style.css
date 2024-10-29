@@ -514,6 +514,10 @@ label {
   align-items: center;
 }
 
+.case__description-award img {
+  height: 36px;
+}
+
 /* custom switch */
 
 .case__switch {
