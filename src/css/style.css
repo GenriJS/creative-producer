@@ -424,6 +424,14 @@ label {
   flex-direction: column;
   justify-content: flex-start;
   padding-bottom: 30px;
+  position: relative;
+}
+
+.case__cup {
+  position: absolute;
+  top: 24px;
+  right: 24px;  
+  height: 24px;
 }
 
 .case_сolor_green {
