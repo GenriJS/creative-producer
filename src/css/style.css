@@ -269,7 +269,9 @@ label {
 .info__skills-container {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  gap: 13px;
+  max-width: 263px;
 }
 
 .info__skills-container:first-of-type {
@@ -297,11 +299,7 @@ label {
 .info__skill_color_blue {
   border-color: #92B0C6;
 }
-@media (min-width: 300px) { 
-  .info__skill-move-left {
-    transform: translateX(-4px);
-  }
-}
+
 .brands__header {
   font-size: 24px;
   font-weight: 700;
