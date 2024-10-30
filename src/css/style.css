@@ -446,6 +446,7 @@ label {
 
 .case video {
   background-color: #222220;
+  object-fit: cover;
 }
 
 .case__header {
