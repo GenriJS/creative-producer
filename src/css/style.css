@@ -312,6 +312,10 @@ label {
   height: 56px;
 }
 
+.brands__element-translate-true {
+  transform: translate(2px, 0);
+}
+
 @media (min-width: 771px) { 
   .brands__list {
     display: flex;
