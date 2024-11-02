@@ -22,24 +22,32 @@
     <div class="outer-container">
       <div class="container">
         <header class="header">
-          <h2 class="header__title">владислав подолян</h2>
-          <nav class="nav">
-            <a class="nav__element nav__element_color_green" href="#info">инфо</a>
-            <a class="nav__element nav__element_color_blue" href="#case">кейсы</a>
-            <a class="nav__element nav__element_color_red" href="#contacts">контакты</a>
-          </nav>
+          <div class="header__container">
+            <h2 class="header__title">владислав<br>подолян</h2>
+            <nav class="nav">
+              <a class="nav__element nav__element_color_green" href="#info">инфо</a>
+              <a class="nav__element nav__element_color_blue" href="#case">кейсы</a>
+              <a class="nav__element nav__element_color_red" href="#contacts">контакты</a>
+            </nav>
+          </div>
         </header>
         <main class="main">
+
           <div class="showreel">
             <h1 class="showreel__header">
-              креативный продюсер
+              креативный<br>продюсер
             </h1>
-            <p class="showreel__text">
-              сценарист<br>криэйтор
-            </p>
-            <div class="showreel__play">
-              <img src="/src/img/icons/play-showreel.svg" alt="play button">
+            
+            <div class="showreel__text-play">
+              <p class="showreel__text">
+                сценарист<br>криэйтор
+              </p>
+              <div class="showreel__play">
+                <img class="showreel__play-img" src="/src/img/icons/play-showreel.svg" alt="play button">
+                <img class="showreel__play-hover" src="/src/img/icons/tooltip.svg" alt="play button">
+              </div>
             </div>
+            
             <div class="showreel__video-container">
               <video class="showreel__video" id="showreel-prev" autoplay muted loop playsinline>
                 <source src="/src/video/showreel/showreel-v.mp4" type="video/mp4" media="(max-width:405px)">
@@ -53,9 +61,14 @@
               <div class="showreel__video-mask"></div>
             </div>
           </div>
+
           <div class="info">
+            
             <div class="info__photo">
-              <img class="info__vladislav" src="/src/img/photo.png" alt="Фото">
+              <picture>
+                <source srcset="/src/img/photo-pc.png" media="(min-width: 770px)">
+                <img class="info__vladislav" src="/src/img/photo.png" alt="Фото">
+              </picture>
               <div class="info__gradient-container">
                 <video autoplay muted loop playsinline id="myVideo">
                   <source src="/src/video/gradients/gradient-1-1.mp4" type="video/mp4" media="(max-width: 769px)">
@@ -67,62 +80,97 @@
               </div>
               <div class="info__ghost">
                 <img src="/src/img/gradients/photo/ghost.svg" alt="Призрак">
-              </div>
+              </div> 
             </div>
-            <div class="info__text">салют! я влад, мне&nbsp;24. живу&nbsp;в&nbsp;москве. имею опыт работы как&nbsp;на&nbsp;агентской, так&nbsp;и&nbsp;на&nbsp;клиентской стороне. люблю, умею, практикую в&nbsp;продакшен полного цикла: смогу придумать, запитчить и&nbsp;засупервайзить идею для&nbsp;вашего бизнеса. летсгоу&nbsp;сотрудничать&nbsp;:)</div>
-            <div class="info__skills">
-              <div class="info__skills-container">
-                <div class="info__skill info__skill_color_green">фрк 360</div>
-                <div class="info__skill info__skill_color_red">olv</div>
-                <div class="info__skill info__skill_color_blue">digital</div>
+            <div class="info__text-skills-container">
+              <div class="info__text">салют! я влад, мне&nbsp;24. живу&nbsp;в&nbsp;москве. имею опыт работы как&nbsp;на&nbsp;агентской, так&nbsp;и&nbsp;на&nbsp;клиентской стороне. люблю, умею, практикую в&nbsp;продакшен полного цикла: смогу придумать, запитчить и&nbsp;засупервайзить идею для&nbsp;вашего бизнеса. летсгоу&nbsp;сотрудничать&nbsp;:) 
               </div>
-              <div class="info__skills-container">
-                <div class="info__skill info__skill_color_red">btl</div>
-                <div class="info__skill info__skill_color_blue">шоуран</div>
-                <div class="info__skill info__skill_color_green">event</div>
-              </div>
-            </div> 
-          </div>
-          <div class="brands">
-            <div class="brands__header">я работал с этими брендами:</div>
-            <div class="brands__list">
-              <div class="brands__list_mobile_true">
-                <img class="brands__element" src="/src/img/icons/brands/okko.svg" alt="Okko">
-                <img class="brands__element" src="/src/img/icons/brands/sber.svg" alt="Sber">
-                <img class="brands__element" src="/src/img/icons/brands/yandex.svg" alt="Yandex">
-                <img class="brands__element" src="/src/img/icons/brands/vkusno.svg" alt="Vkusno and Tochka">
-              </div>
-              <div class="brands__list_mobile_true">
-                <img class="brands__element" src="/src/img/icons/brands/sports.svg" alt="Sports">
-                <img class="brands__element brands__element-translate-true" src="/src/img/icons/brands/lego.svg" alt="Lego">
-                <img class="brands__element brands__element-translate-true" style="width: auto;" src="/src/img/icons/brands/samokat.svg" alt="Samocat">
-                
-                <img class="brands__element" src="/src/img/icons/brands/stars-coffee.svg" alt="Stars Coffee">
-              </div>
+  
+              <div class="info__skills">
+                  <div class="info__skills-container">
+                    <div class="info__skill info__skill_color_green">фрк 360</div>
+                    <div class="info__skill info__skill_color_red">olv</div>
+                    <div class="info__skill info__skill_color_blue">digital</div>
+                  </div>
+                  <div class="info__skills-container">
+                    <div class="info__skill info__skill_color_red">btl</div>
+                    <div class="info__skill info__skill_color_blue">шоуран</div>
+                    <div class="info__skill info__skill_color_green">event</div>
+                  </div>
+              </div> 
             </div>
+
           </div>
-          <div class="teams">
-            <div class="teams__header">и с этими командами:</div>
-            <div class="teams__list">
-              <div class="teams__list_mobile_true">
-                <img class="teams__element nashume" src="/src/img/icons/teams/нашуме.svg" alt="нашуме">
-                <img class="teams__element" src="/src/img/icons/teams/atomic.svg" alt="atomic">
-                <img class="teams__element" src="/src/img/icons/teams/zebra hero.svg" alt="zebra hero">
-              </div>
-              <div class="teams__list_mobile_true">
-                <img class="teams__element" src="/src/img/icons/teams/nenashev.svg" alt="nenashev">
-                <img class="teams__element" src="/src/img/icons/teams/dada.svg" alt="dada">
-                <img class="teams__element" src="/src/img/icons/teams/пинкман.svg" alt="пинкман">
-              </div>
-              <div class="teams__list_mobile_true">
-                <img class="teams__element" src="/src/img/icons/teams/zhee shee.svg" alt="zhee shee">
-                <div id="cgf">
-                <img class="teams__element" src="/src/img/icons/teams/cgf.svg" alt="cgf">
+          <div class="container__brands-teams">
+            <div class="brands">
+              <div class="brands__header">я работал с этими брендами:</div>
+              <div class="brands__list">
+                <div class="brands__list_mobile_true">
+                  <img class="brands__element" src="/src/img/icons/brands/okko.svg" alt="Okko">
+                  <img class="brands__element" src="/src/img/icons/brands/sber.svg" alt="Sber">
+                  <img class="brands__element" src="/src/img/icons/brands/yandex.svg" alt="Yandex">
+                  <img class="brands__element" src="/src/img/icons/brands/vkusno.svg" alt="Vkusno and Tochka">
                 </div>
-                <img class="teams__element" src="/src/img/icons/teams/stereotactic.svg" alt="stereotactic">
+                <div class="brands__list_mobile_true">
+                  <img class="brands__element" src="/src/img/icons/brands/sports.svg" alt="Sports">
+                  <img class="brands__element brands__element-translate-true" src="/src/img/icons/brands/lego.svg" alt="Lego">
+                  <img class="brands__element brands__element-translate-true" style="width: auto;" src="/src/img/icons/brands/samokat.svg" alt="Samocat">
+                  
+                  <img class="brands__element" src="/src/img/icons/brands/stars-coffee.svg" alt="Stars Coffee">
+                </div>
+              </div>
+            </div>
+            <div class="teams">
+              <div class="teams__header">и с этими командами:</div>
+              <div class="teams__list">
+                <div class="teams__list_mobile_true">
+                  <picture class="teams__element nashume">
+                    <source srcset="/src/img/icons/teams/нашуме-pc.svg" media="(min-width: 770px)">
+                    <img  src="/src/img/icons/teams/нашуме.svg" alt="нашуме">
+                  </picture>
+                  <picture class="teams__element atomic">
+                    <source srcset="/src/img/icons/teams/atomic-pc.svg" media="(min-width: 770px)">
+                    <img src="/src/img/icons/teams/atomic.svg" alt="atomic">
+                  </picture>
+                  <picture class="teams__element zebra">
+                    <source srcset="/src/img/icons/teams/zebra hero-pc.svg" media="(min-width: 770px)">
+                    <img src="/src/img/icons/teams/zebra hero.svg" alt="zebra hero">
+                  </picture>
+                </div>
+                <div class="teams__list_mobile_true">
+                  <picture class="teams__element nenashev">
+                    <source srcset="/src/img/icons/teams/nenashev-pc.svg" media="(min-width: 770px)">
+                    <img src="/src/img/icons/teams/nenashev.svg" alt="nenashev">
+                  </picture>
+                  <picture class="teams__element dada">
+                    <source srcset="/src/img/icons/teams/dada-pc.svg" media="(min-width: 770px)">
+                    <img src="/src/img/icons/teams/dada.svg" alt="dada">
+                  </picture>
+                  <picture class="teams__element pinkman">
+                    <source srcset="/src/img/icons/teams/пинкман-pc.svg" media="(min-width: 770px)">
+                    <img src="/src/img/icons/teams/пинкман.svg" alt="пинкман">
+                  </picture>
+                </div>
+                <div class="teams__list_mobile_true">
+                  <picture class="teams__element zhee">
+                    <source srcset="/src/img/icons/teams/zhee shee-pc.svg" media="(min-width: 770px)">
+                    <img src="/src/img/icons/teams/zhee shee.svg" alt="zhee shee">
+                  </picture>
+                  <div id="cgf">
+                    <picture class="teams__element cgf">
+                      <source srcset="/src/img/icons/teams/cgf-pc.svg" media="(min-width: 770px)">
+                      <img src="/src/img/icons/teams/cgf.svg" alt="cgf">
+                    </picture>
+                  </div>
+                  <picture class="teams__element stereotactic">
+                    <source srcset="/src/img/icons/teams/stereotactic-pc.svg" media="(min-width: 770px)">
+                    <img src="/src/img/icons/teams/stereotactic.svg" alt="stereotactic">
+                  </picture>                
+                </div>
               </div>
             </div>
           </div>
+          
           <div class="cases" id="case">
             <div class="case__gradients">
               <video autoplay muted loop playsinline id="myVideo">
@@ -142,9 +190,13 @@
                     okko
                   </div>
                   <div class="case__switch">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="75" height="40" viewBox="0 0 75 40" fill="none">
+                    <svg class="case__switch-mobile" xmlns="http://www.w3.org/2000/svg" width="75" height="40" viewBox="0 0 75 40" fill="none">
                         <path d="M44.2371 37.6414C40.178 35.5658 34.4411 35.5034 30.3316 37.4886C27.4931 38.8599 24.2798 39.6331 20.8763 39.6331C9.34667 39.6331 0 30.7608 0 19.8166C0 8.872 9.34667 0 20.8763 0C24.4532 0 27.82 0.853931 30.7629 2.35873C34.822 4.43434 40.5589 4.49655 44.6681 2.51139C47.5069 1.14008 50.7202 0.366979 54.1236 0.366979C65.6534 0.366979 75 9.23917 75 20.1834C75 31.128 65.6534 40 54.1236 40C50.5468 40 47.18 39.1462 44.2371 37.6414Z" fill="white"/>
                         <circle cx="20" cy="20" r="16" fill="#92B0C6"/>
+                    </svg>
+                    <svg class="case__switch-desktop" width="111" height="60" viewBox="0 0 111 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M65.7291 56.4621C59.7627 53.3487 51.33 53.2552 45.2895 56.2328C41.1171 58.2898 36.3939 59.4497 31.3911 59.4497C14.4437 59.4497 0.705078 46.1412 0.705078 29.7248C0.705078 13.308 14.4437 0 31.3911 0C36.6488 0 41.5976 1.2809 45.9234 3.5381C51.8898 6.65152 60.3225 6.74483 66.3625 3.76709C70.5354 1.71012 75.2586 0.550469 80.2613 0.550469C97.2089 0.550469 110.947 13.8588 110.947 30.2752C110.947 46.692 97.2089 60 80.2613 60C75.0036 60 70.0548 58.7193 65.7291 56.4621Z" fill="white"/>
+                      <ellipse cx="30.7709" cy="30" rx="25.0551" ry="25" fill="#92B0C6"/>
                     </svg>
                   </div>
                 </div>
@@ -165,10 +217,14 @@
                     яндекс
                   </div>
                   <div class="case__switch">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="75" height="40" viewBox="0 0 75 40" fill="none">
+                    <svg class="case__switch-mobile" xmlns="http://www.w3.org/2000/svg" width="75" height="40" viewBox="0 0 75 40" fill="none">
                         <path d="M44.2371 37.6414C40.178 35.5658 34.4411 35.5034 30.3316 37.4886C27.4931 38.8599 24.2798 39.6331 20.8763 39.6331C9.34667 39.6331 0 30.7608 0 19.8166C0 8.872 9.34667 0 20.8763 0C24.4532 0 27.82 0.853931 30.7629 2.35873C34.822 4.43434 40.5589 4.49655 44.6681 2.51139C47.5069 1.14008 50.7202 0.366979 54.1236 0.366979C65.6534 0.366979 75 9.23917 75 20.1834C75 31.128 65.6534 40 54.1236 40C50.5468 40 47.18 39.1462 44.2371 37.6414Z" fill="white"/>
                         <circle cx="20" cy="20" r="16" fill="#E89A8B"/>
                     </svg>
+                    <svg class="case__switch-desktop" width="110" height="60" viewBox="0 0 110 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M64.8811 56.4621C58.9278 53.3487 50.5136 53.2552 44.4864 56.2328C40.3232 58.2898 35.6104 59.4497 30.6185 59.4497C13.7084 59.4497 0 46.1412 0 29.7248C0 13.308 13.7084 0 30.6185 0C35.8647 0 40.8027 1.2809 45.1189 3.5381C51.0722 6.65152 59.4864 6.74483 65.5132 3.76709C69.6768 1.71012 74.3896 0.550469 79.3813 0.550469C96.2917 0.550469 110 13.8588 110 30.2752C110 46.692 96.2917 60 79.3813 60C74.1353 60 69.1973 58.7193 64.8811 56.4621Z" fill="white"/>
+                      <circle cx="30" cy="30" r="25" fill="#E89A8B"/>
+                    </svg>  
                   </div>
                 </div>
                 <div class="case__description">
@@ -188,9 +244,13 @@
                     okko
                   </div>
                   <div class="case__switch">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="75" height="40" viewBox="0 0 75 40" fill="none">
+                    <svg class="case__switch-mobile" xmlns="http://www.w3.org/2000/svg" width="75" height="40" viewBox="0 0 75 40" fill="none">
                         <path d="M44.2371 37.6414C40.178 35.5658 34.4411 35.5034 30.3316 37.4886C27.4931 38.8599 24.2798 39.6331 20.8763 39.6331C9.34667 39.6331 0 30.7608 0 19.8166C0 8.872 9.34667 0 20.8763 0C24.4532 0 27.82 0.853931 30.7629 2.35873C34.822 4.43434 40.5589 4.49655 44.6681 2.51139C47.5069 1.14008 50.7202 0.366979 54.1236 0.366979C65.6534 0.366979 75 9.23917 75 20.1834C75 31.128 65.6534 40 54.1236 40C50.5468 40 47.18 39.1462 44.2371 37.6414Z" fill="white"/>
                         <circle cx="20" cy="20" r="16" fill="#90C081"/>
+                    </svg>
+                    <svg class="case__switch-desktop" width="110" height="60" viewBox="0 0 110 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M64.8811 56.4621C58.9278 53.3487 50.5136 53.2552 44.4864 56.2328C40.3232 58.2898 35.6104 59.4497 30.6185 59.4497C13.7084 59.4497 0 46.1412 0 29.7248C0 13.308 13.7084 0 30.6185 0C35.8647 0 40.8027 1.2809 45.1189 3.5381C51.0722 6.65152 59.4864 6.74483 65.5132 3.76709C69.6768 1.71012 74.3896 0.550469 79.3813 0.550469C96.2917 0.550469 110 13.8588 110 30.2752C110 46.692 96.2917 60 79.3813 60C74.1353 60 69.1973 58.7193 64.8811 56.4621Z" fill="white"/>
+                      <circle cx="30" cy="30" r="25" fill="#90C081"/>
                     </svg>
                   </div>
                 </div>
@@ -211,9 +271,13 @@
                     топлес
                   </div>
                   <div class="case__switch">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="75" height="40" viewBox="0 0 75 40" fill="none">
+                    <svg class="case__switch-mobile" xmlns="http://www.w3.org/2000/svg" width="75" height="40" viewBox="0 0 75 40" fill="none">
                         <path d="M44.2371 37.6414C40.178 35.5658 34.4411 35.5034 30.3316 37.4886C27.4931 38.8599 24.2798 39.6331 20.8763 39.6331C9.34667 39.6331 0 30.7608 0 19.8166C0 8.872 9.34667 0 20.8763 0C24.4532 0 27.82 0.853931 30.7629 2.35873C34.822 4.43434 40.5589 4.49655 44.6681 2.51139C47.5069 1.14008 50.7202 0.366979 54.1236 0.366979C65.6534 0.366979 75 9.23917 75 20.1834C75 31.128 65.6534 40 54.1236 40C50.5468 40 47.18 39.1462 44.2371 37.6414Z" fill="white"/>
                         <circle cx="20" cy="20" r="16" fill="#92B0C6"/>
+                    </svg>
+                    <svg class="case__switch-desktop" width="111" height="60" viewBox="0 0 111 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M65.7291 56.4621C59.7627 53.3487 51.33 53.2552 45.2895 56.2328C41.1171 58.2898 36.3939 59.4497 31.3911 59.4497C14.4437 59.4497 0.705078 46.1412 0.705078 29.7248C0.705078 13.308 14.4437 0 31.3911 0C36.6488 0 41.5976 1.2809 45.9234 3.5381C51.8898 6.65152 60.3225 6.74483 66.3625 3.76709C70.5354 1.71012 75.2586 0.550469 80.2613 0.550469C97.2089 0.550469 110.947 13.8588 110.947 30.2752C110.947 46.692 97.2089 60 80.2613 60C75.0036 60 70.0548 58.7193 65.7291 56.4621Z" fill="white"/>
+                      <ellipse cx="30.7709" cy="30" rx="25.0551" ry="25" fill="#92B0C6"/>
                     </svg>
                   </div>
                 </div>
@@ -235,9 +299,13 @@
                     okko
                   </div>
                   <div class="case__switch">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="75" height="40" viewBox="0 0 75 40" fill="none">
-                        <path d="M44.2371 37.6414C40.178 35.5658 34.4411 35.5034 30.3316 37.4886C27.4931 38.8599 24.2798 39.6331 20.8763 39.6331C9.34667 39.6331 0 30.7608 0 19.8166C0 8.872 9.34667 0 20.8763 0C24.4532 0 27.82 0.853931 30.7629 2.35873C34.822 4.43434 40.5589 4.49655 44.6681 2.51139C47.5069 1.14008 50.7202 0.366979 54.1236 0.366979C65.6534 0.366979 75 9.23917 75 20.1834C75 31.128 65.6534 40 54.1236 40C50.5468 40 47.18 39.1462 44.2371 37.6414Z" fill="white"/>
-                        <circle cx="20" cy="20" r="16" fill="#E89A8B"/>
+                    <svg class="case__switch-mobile" xmlns="http://www.w3.org/2000/svg" width="75" height="40" viewBox="0 0 75 40" fill="none">
+                      <path d="M44.2371 37.6414C40.178 35.5658 34.4411 35.5034 30.3316 37.4886C27.4931 38.8599 24.2798 39.6331 20.8763 39.6331C9.34667 39.6331 0 30.7608 0 19.8166C0 8.872 9.34667 0 20.8763 0C24.4532 0 27.82 0.853931 30.7629 2.35873C34.822 4.43434 40.5589 4.49655 44.6681 2.51139C47.5069 1.14008 50.7202 0.366979 54.1236 0.366979C65.6534 0.366979 75 9.23917 75 20.1834C75 31.128 65.6534 40 54.1236 40C50.5468 40 47.18 39.1462 44.2371 37.6414Z" fill="white"/>
+                      <circle cx="20" cy="20" r="16" fill="#E89A8B"/>
+                    </svg>
+                    <svg class="case__switch-desktop" width="110" height="60" viewBox="0 0 110 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M64.8811 56.4621C58.9278 53.3487 50.5136 53.2552 44.4864 56.2328C40.3232 58.2898 35.6104 59.4497 30.6185 59.4497C13.7084 59.4497 0 46.1412 0 29.7248C0 13.308 13.7084 0 30.6185 0C35.8647 0 40.8027 1.2809 45.1189 3.5381C51.0722 6.65152 59.4864 6.74483 65.5132 3.76709C69.6768 1.71012 74.3896 0.550469 79.3813 0.550469C96.2917 0.550469 110 13.8588 110 30.2752C110 46.692 96.2917 60 79.3813 60C74.1353 60 69.1973 58.7193 64.8811 56.4621Z" fill="white"/>
+                    <circle cx="30" cy="30" r="25" fill="#E89A8B"/>
                     </svg>
                   </div>
                 </div>
@@ -271,9 +339,13 @@
                     блюпринт
                   </div>
                   <div class="case__switch">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="75" height="40" viewBox="0 0 75 40" fill="none">
-                        <path d="M44.2371 37.6414C40.178 35.5658 34.4411 35.5034 30.3316 37.4886C27.4931 38.8599 24.2798 39.6331 20.8763 39.6331C9.34667 39.6331 0 30.7608 0 19.8166C0 8.872 9.34667 0 20.8763 0C24.4532 0 27.82 0.853931 30.7629 2.35873C34.822 4.43434 40.5589 4.49655 44.6681 2.51139C47.5069 1.14008 50.7202 0.366979 54.1236 0.366979C65.6534 0.366979 75 9.23917 75 20.1834C75 31.128 65.6534 40 54.1236 40C50.5468 40 47.18 39.1462 44.2371 37.6414Z" fill="white"/>
-                        <circle cx="20" cy="20" r="16" fill="#90C081"/>
+                    <svg class="case__switch-mobile" xmlns="http://www.w3.org/2000/svg" width="75" height="40" viewBox="0 0 75 40" fill="none">
+                      <path d="M44.2371 37.6414C40.178 35.5658 34.4411 35.5034 30.3316 37.4886C27.4931 38.8599 24.2798 39.6331 20.8763 39.6331C9.34667 39.6331 0 30.7608 0 19.8166C0 8.872 9.34667 0 20.8763 0C24.4532 0 27.82 0.853931 30.7629 2.35873C34.822 4.43434 40.5589 4.49655 44.6681 2.51139C47.5069 1.14008 50.7202 0.366979 54.1236 0.366979C65.6534 0.366979 75 9.23917 75 20.1834C75 31.128 65.6534 40 54.1236 40C50.5468 40 47.18 39.1462 44.2371 37.6414Z" fill="white"/>
+                      <circle cx="20" cy="20" r="16" fill="#90C081"/>
+                    </svg>
+                    <svg class="case__switch-desktop" width="110" height="60" viewBox="0 0 110 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M64.8811 56.4621C58.9278 53.3487 50.5136 53.2552 44.4864 56.2328C40.3232 58.2898 35.6104 59.4497 30.6185 59.4497C13.7084 59.4497 0 46.1412 0 29.7248C0 13.308 13.7084 0 30.6185 0C35.8647 0 40.8027 1.2809 45.1189 3.5381C51.0722 6.65152 59.4864 6.74483 65.5132 3.76709C69.6768 1.71012 74.3896 0.550469 79.3813 0.550469C96.2917 0.550469 110 13.8588 110 30.2752C110 46.692 96.2917 60 79.3813 60C74.1353 60 69.1973 58.7193 64.8811 56.4621Z" fill="white"/>
+                    <circle cx="30" cy="30" r="25" fill="#90C081"/>
                     </svg>
                   </div>
                 </div>
@@ -292,107 +364,116 @@
               </div>
             </div>
           </div>
-          <div class="form" id="contacts">
-            <h2 class="form__title">поработаем?</h2>
-            <p class="form__description">расскажите подробнее<br>про<span id="dynamic-word">идею</span></p>
-              <form id="form" enctype="multipart/form-data">
+          <div class="container__form-game">
+            <div class="form" id="contacts">
+              <h2 class="form__title">поработаем?</h2>
+              <p class="form__description">расскажите подробнее<br>про<span id="dynamic-word">идею</span></p>
+                <form id="form" enctype="multipart/form-data">
 
-                <div class="form__radio-container">
-                  <label>
-                      <input type="radio" name="workType" value="фултайм" checked>
-                      <div class="form__radio-button">фултайм</div>
-                  </label>
-                  <label>
-                      <input type="radio" name="workType" value="фриланс">
-                      <div class="form__radio-button">фриланс</div>
-                  </label>
-                  <label>
-                      <input type="radio" name="workType" value="аутсорс">
-                      <div class="form__radio-button">аутсорс</div>
-                  </label>
-                  <label>
-                      <input type="radio" name="workType" value="другое">
-                      <div class="form__radio-button">другое</div>
-                  </label>
-                </div>
-
-                <div class="form__input-container">
-                  <div class="form__input-name">
-                    <input id="name" type="text" placeholder="имя" name="name">
-                    <div class="form__validation" id="nameMessage">
-                      <img src="/src/img/icons/red_cross.svg" alt="">
-                      <p></p>
-                    </div>
+                  <div class="form__radio-container">
+                    <label>
+                        <input type="radio" name="workType" value="фултайм" checked>
+                        <div class="form__radio-button">фултайм</div>
+                    </label>
+                    <label>
+                        <input type="radio" name="workType" value="фриланс">
+                        <div class="form__radio-button">фриланс</div>
+                    </label>
+                    <label>
+                        <input type="radio" name="workType" value="аутсорс">
+                        <div class="form__radio-button">аутсорс</div>
+                    </label>
+                    <label>
+                        <input type="radio" name="workType" value="другое">
+                        <div class="form__radio-button">другое</div>
+                    </label>
                   </div>
-                  <div class="form__input-contact">
-                      <input id="contact" type="text" placeholder="email/telegram" name="contact">
-                      <div class="form__validation" id="contactMessage">
+
+                  <div class="form__input-container">
+                    <div class="form__input-name">
+                      <input id="name" type="text" placeholder="имя" name="name">
+                      <div class="form__validation" id="nameMessage">
                         <img src="/src/img/icons/red_cross.svg" alt="">
                         <p></p>
                       </div>
+                    </div>
+                    <div class="form__input-contact">
+                        <input id="contact" type="text" placeholder="email/telegram" name="contact">
+                        <div class="form__validation" id="contactMessage">
+                          <img src="/src/img/icons/red_cross.svg" alt="">
+                          <p></p>
+                        </div>
+                    </div>
                   </div>
-                </div>
-                  
-                <div class="form__input-message">
-                      <input type="text" id="message" name="message" placeholder="комментарий">
-                </div>
+                    
+                  <div class="form__input-message">
+                        <input type="text" id="message" name="message" placeholder="комментарий">
+                  </div>
 
-                <div class="form__input-file">
-                  <label for="file-input" id="file-label" class="form__input-file-labels">
-                    прикрепить бриф
+                  <div class="form__input-file">
+                    <label for="file-input" id="file-label" class="form__input-file-labels">
+                      прикрепить бриф
+                    </label>
+                    <input type="file" class="my" id="file-input" name="file" multiple="multiple"/>
+                  </div>
+
+                  <label class="form__checkbox">
+                    <input type="checkbox" id="checkbox">
+                    <span class="form__checkbox-img"></span>
+                    <span class="form__checkbox-text">Я соглашаюсь с условиями обработки и использования моих персональных данных.</span>
+                    <div class="form__validation form__validation-checkbox" id="checkboxMessage">
+                      <img src="/src/img/icons/red_cross.svg" alt="">
+                      <p></p>
+                    </div>
                   </label>
-                  <input type="file" class="my" id="file-input" name="file" multiple="multiple"/>
-                </div>
 
-                <label class="form__checkbox">
-                  <input type="checkbox" id="checkbox">
-                  <span class="form__checkbox-img"></span>
-                  <span class="form__checkbox-text">Я соглашаюсь с условиями обработки и использования моих персональных данных.</span>
-                  <div class="form__validation form__validation-checkbox" id="checkboxMessage">
-                    <img src="/src/img/icons/red_cross.svg" alt="">
-                    <p></p>
-                  </div>
-                </label>
-
-                <input id="submitButton" class="form__submit" type="submit" value="отправить" disabled>
-              </form>
+                  <input id="submitButton" class="form__submit" type="submit" value="отправить" disabled>
+                </form>
+            </div>
+            <div class="game">
+            </div>
           </div>
         </main>
         <footer class="footer">
-          <a href="https://www.instagram.com/vladislav_podolian" target="_blank">
-            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
-              <path d="M30.625 0H9.375C4.19733 0 0 4.19733 0 9.375V30.625C0 35.8027 4.19733 40 9.375 40H30.625C35.8027 40 40 35.8027 40 30.625V9.375C40 4.19733 35.8027 0 30.625 0Z" fill="#BDAB90"/>
-              <path d="M30.625 0H9.375C4.19733 0 0 4.19733 0 9.375V30.625C0 35.8027 4.19733 40 9.375 40H30.625C35.8027 40 40 35.8027 40 30.625V9.375C40 4.19733 35.8027 0 30.625 0Z" fill="#BDAB90"/>
-              <path d="M20.0014 4.375C15.758 4.375 15.2253 4.39359 13.5588 4.46938C11.8953 4.54563 10.7598 4.80891 9.76641 5.19531C8.73859 5.59438 7.86688 6.12828 6.99844 6.99703C6.12922 7.86562 5.59531 8.73734 5.195 9.76469C4.8075 10.7584 4.54391 11.8944 4.46906 13.557C4.39453 15.2238 4.375 15.7566 4.375 20.0002C4.375 24.2438 4.39375 24.7747 4.46938 26.4412C4.54594 28.1047 4.80922 29.2402 5.19531 30.2336C5.59469 31.2614 6.12859 32.1331 6.99734 33.0016C7.86563 33.8708 8.73734 34.4059 9.76438 34.805C10.7586 35.1914 11.8942 35.4547 13.5573 35.5309C15.2241 35.6067 15.7563 35.6253 19.9995 35.6253C24.2434 35.6253 24.7744 35.6067 26.4409 35.5309C28.1044 35.4547 29.2411 35.1914 30.2353 34.805C31.2627 34.4059 32.1331 33.8708 33.0012 33.0016C33.8705 32.1331 34.4042 31.2614 34.8047 30.2341C35.1887 29.2402 35.4525 28.1044 35.5306 26.4416C35.6055 24.775 35.625 24.2438 35.625 20.0002C35.625 15.7566 35.6055 15.2241 35.5306 13.5573C35.4525 11.8939 35.1887 10.7586 34.8047 9.76516C34.4042 8.73734 33.8705 7.86562 33.0012 6.99703C32.1322 6.12797 31.263 5.59406 30.2344 5.19547C29.2383 4.80891 28.1022 4.54547 26.4387 4.46938C24.772 4.39359 24.2414 4.375 19.9966 4.375H20.0014ZM18.5997 7.19078C19.0158 7.19016 19.48 7.19078 20.0014 7.19078C24.1734 7.19078 24.6678 7.20578 26.3153 7.28063C27.8387 7.35031 28.6656 7.60484 29.2164 7.81875C29.9456 8.10188 30.4655 8.44047 31.012 8.9875C31.5589 9.53438 31.8973 10.0552 32.1813 10.7844C32.3952 11.3344 32.65 12.1613 32.7194 13.6847C32.7942 15.3319 32.8105 15.8266 32.8105 19.9966C32.8105 24.1666 32.7942 24.6614 32.7194 26.3084C32.6497 27.8319 32.3952 28.6588 32.1813 29.2089C31.8981 29.9381 31.5589 30.4573 31.012 31.0039C30.4652 31.5508 29.9459 31.8892 29.2164 32.1725C28.6663 32.3873 27.8387 32.6413 26.3153 32.7109C24.6681 32.7858 24.1734 32.802 20.0014 32.802C15.8292 32.802 15.3347 32.7858 13.6877 32.7109C12.1642 32.6406 11.3373 32.3861 10.7861 32.1722C10.057 31.8889 9.53609 31.5505 8.98922 31.0036C8.44234 30.4567 8.10391 29.9372 7.82 29.2077C7.60609 28.6575 7.35125 27.8306 7.28188 26.3072C7.20703 24.66 7.19203 24.1653 7.19203 19.9927C7.19203 15.82 7.20703 15.328 7.28188 13.6808C7.35156 12.1573 7.60609 11.3305 7.82 10.7797C8.10328 10.0505 8.44234 9.52969 8.98938 8.98281C9.53641 8.43594 10.057 8.09734 10.7862 7.81359C11.337 7.59875 12.1642 7.34484 13.6877 7.27484C15.1291 7.20969 15.6877 7.19016 18.5997 7.18687V7.19078ZM28.342 9.78516C27.3069 9.78516 26.467 10.6242 26.467 11.6595C26.467 12.6947 27.3069 13.5345 28.342 13.5345C29.3772 13.5345 30.217 12.6947 30.217 11.6595C30.217 10.6244 29.3772 9.78516 28.342 9.78516ZM20.0014 11.9759C15.5702 11.9759 11.9773 15.5688 11.9773 20.0002C11.9773 24.4316 15.5702 28.0227 20.0014 28.0227C24.4328 28.0227 28.0244 24.4316 28.0244 20.0002C28.0244 15.5689 24.4328 11.9759 20.0014 11.9759ZM20.0014 14.7917C22.8778 14.7917 25.2098 17.1234 25.2098 20.0002C25.2098 22.8766 22.8778 25.2086 20.0014 25.2086C17.125 25.2086 14.7931 22.8766 14.7931 20.0002C14.7931 17.1234 17.1248 14.7917 20.0014 14.7917Z" fill="#EEEAD9"/>
-            </svg>
-          </a>
-          <a href="https://t.me/whestey" target="_blank">
-            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <g id="telega">
-              <path id="Vector" d="M1 20C1 9.50645 9.50645 1 20 1C30.4935 1 39 9.50645 39 20C39 30.4935 30.4935 39 20 39C9.50645 39 1 30.4935 1 20Z" fill="#BDAB90" stroke="#BDAB90" stroke-width="2"/>
-              <path id="Vector_2" d="M9.05242 19.7888C14.8837 17.2488 18.7712 15.5742 20.7149 14.7651C26.2712 12.4548 27.4243 12.0535 28.1774 12.0399C28.343 12.0373 28.7118 12.0782 28.9524 12.2727C29.1524 12.4368 29.2087 12.6587 29.2368 12.8144C29.2618 12.9701 29.2962 13.3248 29.268 13.6016C28.968 16.7641 27.6649 24.4385 27.0024 27.9807C26.7243 29.4794 26.1712 29.9819 25.6368 30.031C24.4743 30.1379 23.593 29.2635 22.468 28.5263C20.7087 27.3723 19.7149 26.6541 18.0055 25.5282C16.0305 24.2269 17.3118 23.5116 18.4368 22.3429C18.7305 22.0369 23.8493 17.3823 23.9462 16.9601C23.9587 16.9073 23.9712 16.7104 23.8524 16.6066C23.7368 16.5026 23.5649 16.5382 23.4399 16.5663C23.2618 16.6063 20.4524 18.4651 15.0024 22.1423C14.2055 22.6904 13.4837 22.9576 12.8337 22.9435C12.1212 22.9282 10.7462 22.5398 9.7243 22.2079C8.4743 21.8007 7.47742 21.5854 7.56492 20.8938C7.60867 20.5338 8.10555 20.1654 9.05242 19.7888Z" fill="#EEEAD9"/>
-              </g>
-              </svg>          
-          </a>
-          <a href="https://vimeo.com/vladislavpodolian" target="_blank">
-            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
-              <path d="M1 20C1 9.50645 9.50645 1 20 1C30.4935 1 39 9.50645 39 20C39 30.4935 30.4935 39 20 39C9.50645 39 1 30.4935 1 20Z" fill="#BDAB90" stroke="#BDAB90" stroke-width="2"/>
-              <path d="M29.1685 16.146C28.1102 22.221 22.1935 27.3689 20.4164 28.5439C18.6372 29.7147 17.0122 28.071 16.4247 26.8272C15.7497 25.4064 13.731 17.7168 13.2018 17.0772C12.6727 16.4376 11.0852 17.7168 11.0852 17.7168L10.3164 16.6876C10.3164 16.6876 13.5393 12.7647 15.9914 12.2772C18.5914 11.7564 18.5872 16.3418 19.2122 18.8897C19.8185 21.3543 20.2247 22.7626 20.7518 22.7626C21.281 22.7626 22.2914 21.3918 23.3956 19.2835C24.5039 17.1751 23.3497 15.3126 21.1852 16.6376C22.0497 11.346 30.2268 10.071 29.1685 16.146Z" fill="#EEEAD9"/>
-            </svg>
-          </a>
-          <a href="https://www.behance.net/vladislavpodolian" target="_blank">
-            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
-              <path d="M1 20C1 9.50764 9.50764 1 20 1C30.4924 1 39 9.50764 39 20C39 30.4924 30.4924 39 20 39C9.50764 39 1 30.4924 1 20Z" fill="#BDAB90" stroke="#BDAB90" stroke-width="2"/>
-              <path d="M18.0737 18.8112C18.0737 18.8112 19.9661 18.6664 19.9661 16.3892C19.9661 14.109 18.4178 13 16.4554 13H10V26H16.4554C16.4554 26 20.3972 25.8584 20.3972 21.9728C20.3972 21.9728 20.5682 18.8112 18.0737 18.8112ZM12.8446 15.2614H16.4554C16.4554 15.2614 17.3335 15.2614 17.3335 16.5852C17.3335 17.9109 16.8174 18.103 16.2313 18.103H12.8446V15.2614ZM16.2723 23.468H12.8446V20.065H16.4554C16.4554 20.065 17.7636 20.0473 17.7636 21.8133C17.7636 23.3025 16.7864 23.4572 16.2723 23.468ZM25.6523 16.2375C20.8803 16.2375 20.8843 21.1297 20.8843 21.1297C20.8843 21.1297 20.5582 25.9963 25.6523 25.9963C25.6523 25.9963 29.8962 26.2465 29.8962 22.6111H27.7137C27.7137 22.6111 27.7857 23.9811 25.7253 23.9811C25.7253 23.9811 23.5409 24.1309 23.5409 21.765H29.9652C29.9652 21.765 30.6744 16.2375 25.6523 16.2375ZM27.5937 20.065H23.5188C23.5188 20.065 23.7849 18.103 25.7013 18.103C27.6177 18.103 27.5937 20.065 27.5937 20.065ZM28.1008 13.7476H22.9827V15.3176H28.1008V13.7476Z" fill="#EEEAD9"/>
-            </svg>
-          </a>
-          <a href="https://www.linkedin.com/in/vladislavpodolian" target="_blank">
-            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
-              <path d="M30.625 0H9.375C4.19733 0 0 4.19733 0 9.375V30.625C0 35.8027 4.19733 40 9.375 40H30.625C35.8027 40 40 35.8027 40 30.625V9.375C40 4.19733 35.8027 0 30.625 0Z" fill="white"/>
-              <path d="M30.625 0H9.375C4.19733 0 0 4.19733 0 9.375V30.625C0 35.8027 4.19733 40 9.375 40H30.625C35.8027 40 40 35.8027 40 30.625V9.375C40 4.19733 35.8027 0 30.625 0Z" fill="#BDAB90"/>
-              <path d="M28.8617 34.0133H33.4352C33.6009 34.0133 33.7598 33.9475 33.877 33.8303C33.9942 33.7131 34.0601 33.5542 34.0602 33.3884L34.0625 23.7256C34.0625 18.6752 32.9742 14.7931 27.0722 14.7931C24.8286 14.7097 22.7128 15.8662 21.5711 17.7975C21.5655 17.8069 21.557 17.8142 21.5469 17.8183C21.5368 17.8224 21.5256 17.823 21.5151 17.8202C21.5045 17.8173 21.4952 17.8111 21.4885 17.8025C21.4819 17.7938 21.4782 17.7833 21.4781 17.7723V15.8844C21.4781 15.7186 21.4123 15.5596 21.2951 15.4424C21.1779 15.3252 21.0189 15.2594 20.8531 15.2594H16.513C16.3472 15.2594 16.1882 15.3252 16.071 15.4424C15.9538 15.5596 15.888 15.7186 15.888 15.8844V33.3875C15.888 33.5533 15.9538 33.7122 16.071 33.8294C16.1882 33.9466 16.3472 34.0125 16.513 34.0125H21.0861C21.2519 34.0125 21.4108 33.9466 21.528 33.8294C21.6452 33.7122 21.7111 33.5533 21.7111 33.3875V24.7355C21.7111 22.2891 22.1752 19.9198 25.2081 19.9198C28.198 19.9198 28.2367 22.7192 28.2367 24.8939V33.3883C28.2367 33.554 28.3026 33.713 28.4198 33.8302C28.537 33.9474 28.696 34.0133 28.8617 34.0133ZM5.9375 9.31687C5.9375 11.1706 7.46359 12.6959 9.3175 12.6959C11.1709 12.6958 12.6961 11.1695 12.6961 9.31609C12.6958 7.46266 11.1705 5.9375 9.31687 5.9375C7.46281 5.9375 5.9375 7.46312 5.9375 9.31687ZM7.02484 34.0133H11.6041C11.7698 34.0133 11.9288 33.9474 12.046 33.8302C12.1632 33.713 12.2291 33.554 12.2291 33.3883V15.8844C12.2291 15.7186 12.1632 15.5596 12.046 15.4424C11.9288 15.3252 11.7698 15.2594 11.6041 15.2594H7.02484C6.85908 15.2594 6.70011 15.3252 6.5829 15.4424C6.46569 15.5596 6.39984 15.7186 6.39984 15.8844V33.3883C6.39984 33.554 6.46569 33.713 6.5829 33.8302C6.70011 33.9474 6.85908 34.0133 7.02484 34.0133Z" fill="#EEEAD9"/>
-            </svg>
-          </a>
+          <div class="footer__link">
+            <a href="https://www.instagram.com/vladislav_podolian" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                <path d="M30.625 0H9.375C4.19733 0 0 4.19733 0 9.375V30.625C0 35.8027 4.19733 40 9.375 40H30.625C35.8027 40 40 35.8027 40 30.625V9.375C40 4.19733 35.8027 0 30.625 0Z" fill="#BDAB90"/>
+                <path d="M30.625 0H9.375C4.19733 0 0 4.19733 0 9.375V30.625C0 35.8027 4.19733 40 9.375 40H30.625C35.8027 40 40 35.8027 40 30.625V9.375C40 4.19733 35.8027 0 30.625 0Z" fill="#BDAB90"/>
+                <path d="M20.0014 4.375C15.758 4.375 15.2253 4.39359 13.5588 4.46938C11.8953 4.54563 10.7598 4.80891 9.76641 5.19531C8.73859 5.59438 7.86688 6.12828 6.99844 6.99703C6.12922 7.86562 5.59531 8.73734 5.195 9.76469C4.8075 10.7584 4.54391 11.8944 4.46906 13.557C4.39453 15.2238 4.375 15.7566 4.375 20.0002C4.375 24.2438 4.39375 24.7747 4.46938 26.4412C4.54594 28.1047 4.80922 29.2402 5.19531 30.2336C5.59469 31.2614 6.12859 32.1331 6.99734 33.0016C7.86563 33.8708 8.73734 34.4059 9.76438 34.805C10.7586 35.1914 11.8942 35.4547 13.5573 35.5309C15.2241 35.6067 15.7563 35.6253 19.9995 35.6253C24.2434 35.6253 24.7744 35.6067 26.4409 35.5309C28.1044 35.4547 29.2411 35.1914 30.2353 34.805C31.2627 34.4059 32.1331 33.8708 33.0012 33.0016C33.8705 32.1331 34.4042 31.2614 34.8047 30.2341C35.1887 29.2402 35.4525 28.1044 35.5306 26.4416C35.6055 24.775 35.625 24.2438 35.625 20.0002C35.625 15.7566 35.6055 15.2241 35.5306 13.5573C35.4525 11.8939 35.1887 10.7586 34.8047 9.76516C34.4042 8.73734 33.8705 7.86562 33.0012 6.99703C32.1322 6.12797 31.263 5.59406 30.2344 5.19547C29.2383 4.80891 28.1022 4.54547 26.4387 4.46938C24.772 4.39359 24.2414 4.375 19.9966 4.375H20.0014ZM18.5997 7.19078C19.0158 7.19016 19.48 7.19078 20.0014 7.19078C24.1734 7.19078 24.6678 7.20578 26.3153 7.28063C27.8387 7.35031 28.6656 7.60484 29.2164 7.81875C29.9456 8.10188 30.4655 8.44047 31.012 8.9875C31.5589 9.53438 31.8973 10.0552 32.1813 10.7844C32.3952 11.3344 32.65 12.1613 32.7194 13.6847C32.7942 15.3319 32.8105 15.8266 32.8105 19.9966C32.8105 24.1666 32.7942 24.6614 32.7194 26.3084C32.6497 27.8319 32.3952 28.6588 32.1813 29.2089C31.8981 29.9381 31.5589 30.4573 31.012 31.0039C30.4652 31.5508 29.9459 31.8892 29.2164 32.1725C28.6663 32.3873 27.8387 32.6413 26.3153 32.7109C24.6681 32.7858 24.1734 32.802 20.0014 32.802C15.8292 32.802 15.3347 32.7858 13.6877 32.7109C12.1642 32.6406 11.3373 32.3861 10.7861 32.1722C10.057 31.8889 9.53609 31.5505 8.98922 31.0036C8.44234 30.4567 8.10391 29.9372 7.82 29.2077C7.60609 28.6575 7.35125 27.8306 7.28188 26.3072C7.20703 24.66 7.19203 24.1653 7.19203 19.9927C7.19203 15.82 7.20703 15.328 7.28188 13.6808C7.35156 12.1573 7.60609 11.3305 7.82 10.7797C8.10328 10.0505 8.44234 9.52969 8.98938 8.98281C9.53641 8.43594 10.057 8.09734 10.7862 7.81359C11.337 7.59875 12.1642 7.34484 13.6877 7.27484C15.1291 7.20969 15.6877 7.19016 18.5997 7.18687V7.19078ZM28.342 9.78516C27.3069 9.78516 26.467 10.6242 26.467 11.6595C26.467 12.6947 27.3069 13.5345 28.342 13.5345C29.3772 13.5345 30.217 12.6947 30.217 11.6595C30.217 10.6244 29.3772 9.78516 28.342 9.78516ZM20.0014 11.9759C15.5702 11.9759 11.9773 15.5688 11.9773 20.0002C11.9773 24.4316 15.5702 28.0227 20.0014 28.0227C24.4328 28.0227 28.0244 24.4316 28.0244 20.0002C28.0244 15.5689 24.4328 11.9759 20.0014 11.9759ZM20.0014 14.7917C22.8778 14.7917 25.2098 17.1234 25.2098 20.0002C25.2098 22.8766 22.8778 25.2086 20.0014 25.2086C17.125 25.2086 14.7931 22.8766 14.7931 20.0002C14.7931 17.1234 17.1248 14.7917 20.0014 14.7917Z" fill="#EEEAD9"/>
+              </svg>
+            </a>
+            <a href="https://t.me/whestey" target="_blank">
+              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="telega">
+                <path id="Vector" d="M1 20C1 9.50645 9.50645 1 20 1C30.4935 1 39 9.50645 39 20C39 30.4935 30.4935 39 20 39C9.50645 39 1 30.4935 1 20Z" fill="#BDAB90" stroke="#BDAB90" stroke-width="2"/>
+                <path id="Vector_2" d="M9.05242 19.7888C14.8837 17.2488 18.7712 15.5742 20.7149 14.7651C26.2712 12.4548 27.4243 12.0535 28.1774 12.0399C28.343 12.0373 28.7118 12.0782 28.9524 12.2727C29.1524 12.4368 29.2087 12.6587 29.2368 12.8144C29.2618 12.9701 29.2962 13.3248 29.268 13.6016C28.968 16.7641 27.6649 24.4385 27.0024 27.9807C26.7243 29.4794 26.1712 29.9819 25.6368 30.031C24.4743 30.1379 23.593 29.2635 22.468 28.5263C20.7087 27.3723 19.7149 26.6541 18.0055 25.5282C16.0305 24.2269 17.3118 23.5116 18.4368 22.3429C18.7305 22.0369 23.8493 17.3823 23.9462 16.9601C23.9587 16.9073 23.9712 16.7104 23.8524 16.6066C23.7368 16.5026 23.5649 16.5382 23.4399 16.5663C23.2618 16.6063 20.4524 18.4651 15.0024 22.1423C14.2055 22.6904 13.4837 22.9576 12.8337 22.9435C12.1212 22.9282 10.7462 22.5398 9.7243 22.2079C8.4743 21.8007 7.47742 21.5854 7.56492 20.8938C7.60867 20.5338 8.10555 20.1654 9.05242 19.7888Z" fill="#EEEAD9"/>
+                </g>
+                </svg>          
+            </a>
+            <a href="https://vimeo.com/vladislavpodolian" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                <path d="M1 20C1 9.50645 9.50645 1 20 1C30.4935 1 39 9.50645 39 20C39 30.4935 30.4935 39 20 39C9.50645 39 1 30.4935 1 20Z" fill="#BDAB90" stroke="#BDAB90" stroke-width="2"/>
+                <path d="M29.1685 16.146C28.1102 22.221 22.1935 27.3689 20.4164 28.5439C18.6372 29.7147 17.0122 28.071 16.4247 26.8272C15.7497 25.4064 13.731 17.7168 13.2018 17.0772C12.6727 16.4376 11.0852 17.7168 11.0852 17.7168L10.3164 16.6876C10.3164 16.6876 13.5393 12.7647 15.9914 12.2772C18.5914 11.7564 18.5872 16.3418 19.2122 18.8897C19.8185 21.3543 20.2247 22.7626 20.7518 22.7626C21.281 22.7626 22.2914 21.3918 23.3956 19.2835C24.5039 17.1751 23.3497 15.3126 21.1852 16.6376C22.0497 11.346 30.2268 10.071 29.1685 16.146Z" fill="#EEEAD9"/>
+              </svg>
+            </a>
+            <a href="https://www.behance.net/vladislavpodolian" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                <path d="M1 20C1 9.50764 9.50764 1 20 1C30.4924 1 39 9.50764 39 20C39 30.4924 30.4924 39 20 39C9.50764 39 1 30.4924 1 20Z" fill="#BDAB90" stroke="#BDAB90" stroke-width="2"/>
+                <path d="M18.0737 18.8112C18.0737 18.8112 19.9661 18.6664 19.9661 16.3892C19.9661 14.109 18.4178 13 16.4554 13H10V26H16.4554C16.4554 26 20.3972 25.8584 20.3972 21.9728C20.3972 21.9728 20.5682 18.8112 18.0737 18.8112ZM12.8446 15.2614H16.4554C16.4554 15.2614 17.3335 15.2614 17.3335 16.5852C17.3335 17.9109 16.8174 18.103 16.2313 18.103H12.8446V15.2614ZM16.2723 23.468H12.8446V20.065H16.4554C16.4554 20.065 17.7636 20.0473 17.7636 21.8133C17.7636 23.3025 16.7864 23.4572 16.2723 23.468ZM25.6523 16.2375C20.8803 16.2375 20.8843 21.1297 20.8843 21.1297C20.8843 21.1297 20.5582 25.9963 25.6523 25.9963C25.6523 25.9963 29.8962 26.2465 29.8962 22.6111H27.7137C27.7137 22.6111 27.7857 23.9811 25.7253 23.9811C25.7253 23.9811 23.5409 24.1309 23.5409 21.765H29.9652C29.9652 21.765 30.6744 16.2375 25.6523 16.2375ZM27.5937 20.065H23.5188C23.5188 20.065 23.7849 18.103 25.7013 18.103C27.6177 18.103 27.5937 20.065 27.5937 20.065ZM28.1008 13.7476H22.9827V15.3176H28.1008V13.7476Z" fill="#EEEAD9"/>
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/vladislavpodolian" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                <path d="M30.625 0H9.375C4.19733 0 0 4.19733 0 9.375V30.625C0 35.8027 4.19733 40 9.375 40H30.625C35.8027 40 40 35.8027 40 30.625V9.375C40 4.19733 35.8027 0 30.625 0Z" fill="white"/>
+                <path d="M30.625 0H9.375C4.19733 0 0 4.19733 0 9.375V30.625C0 35.8027 4.19733 40 9.375 40H30.625C35.8027 40 40 35.8027 40 30.625V9.375C40 4.19733 35.8027 0 30.625 0Z" fill="#BDAB90"/>
+                <path d="M28.8617 34.0133H33.4352C33.6009 34.0133 33.7598 33.9475 33.877 33.8303C33.9942 33.7131 34.0601 33.5542 34.0602 33.3884L34.0625 23.7256C34.0625 18.6752 32.9742 14.7931 27.0722 14.7931C24.8286 14.7097 22.7128 15.8662 21.5711 17.7975C21.5655 17.8069 21.557 17.8142 21.5469 17.8183C21.5368 17.8224 21.5256 17.823 21.5151 17.8202C21.5045 17.8173 21.4952 17.8111 21.4885 17.8025C21.4819 17.7938 21.4782 17.7833 21.4781 17.7723V15.8844C21.4781 15.7186 21.4123 15.5596 21.2951 15.4424C21.1779 15.3252 21.0189 15.2594 20.8531 15.2594H16.513C16.3472 15.2594 16.1882 15.3252 16.071 15.4424C15.9538 15.5596 15.888 15.7186 15.888 15.8844V33.3875C15.888 33.5533 15.9538 33.7122 16.071 33.8294C16.1882 33.9466 16.3472 34.0125 16.513 34.0125H21.0861C21.2519 34.0125 21.4108 33.9466 21.528 33.8294C21.6452 33.7122 21.7111 33.5533 21.7111 33.3875V24.7355C21.7111 22.2891 22.1752 19.9198 25.2081 19.9198C28.198 19.9198 28.2367 22.7192 28.2367 24.8939V33.3883C28.2367 33.554 28.3026 33.713 28.4198 33.8302C28.537 33.9474 28.696 34.0133 28.8617 34.0133ZM5.9375 9.31687C5.9375 11.1706 7.46359 12.6959 9.3175 12.6959C11.1709 12.6958 12.6961 11.1695 12.6961 9.31609C12.6958 7.46266 11.1705 5.9375 9.31687 5.9375C7.46281 5.9375 5.9375 7.46312 5.9375 9.31687ZM7.02484 34.0133H11.6041C11.7698 34.0133 11.9288 33.9474 12.046 33.8302C12.1632 33.713 12.2291 33.554 12.2291 33.3883V15.8844C12.2291 15.7186 12.1632 15.5596 12.046 15.4424C11.9288 15.3252 11.7698 15.2594 11.6041 15.2594H7.02484C6.85908 15.2594 6.70011 15.3252 6.5829 15.4424C6.46569 15.5596 6.39984 15.7186 6.39984 15.8844V33.3883C6.39984 33.554 6.46569 33.713 6.5829 33.8302C6.70011 33.9474 6.85908 34.0133 7.02484 34.0133Z" fill="#EEEAD9"/>
+              </svg>
+            </a>
+          </div>
+          <div class="footer__copy">
+            © 2024 владислав подолян все&nbsp;права&nbsp;сохранены
+          </div>
         </footer>
         <div class="fullscreen-container">
           <div class="form-sent">
