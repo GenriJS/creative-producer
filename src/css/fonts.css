@@ -4,6 +4,7 @@
     local("Cruinn-Light"),
     url("/src/fonts/Cruinn\ Light.ttf");
   font-weight: 300;
+  font-display: swap;
 }
 
 @font-face {
@@ -12,6 +13,7 @@
     local("Cruinn-Regular"),
     url("/src/fonts/Cruinn\ Regular.ttf");
   font-weight: 400;
+  font-display: swap;
 }
 
 @font-face {
@@ -20,6 +22,7 @@
     local("Cruinn-Medium"),
     url("/src/fonts/Cruinn\ Medium.ttf");
   font-weight: 500;
+  font-display: swap;
 }
 
 @font-face {
@@ -28,6 +31,7 @@
     local("Cruinn-Bold"),
     url("/src/fonts/Cruinn\ Bold.ttf");
   font-weight: 700;
+  font-display: swap;
 }
 
 @font-face {
@@ -36,6 +40,7 @@
     local("Manrope-Regular"),
     url("/src/fonts/Manrope\ Regular.ttf");
   font-weight: 400;
+  font-display: swap;
 }
 
 @font-face {
@@ -45,4 +50,5 @@
        url("/src/fonts/AlbertSans-MediumItalic.ttf") format("truetype");
   font-weight: 500;
   font-style: italic;
+  font-display: swap;
 }
