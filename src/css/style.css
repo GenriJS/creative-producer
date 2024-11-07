@@ -1201,6 +1201,11 @@ font-weight: 700;
     font-size: 20px;
   }
 
+  .case__description a,
+  .case__description a:visited {
+    font-size: 20px;
+  }
+
   .case__description_color_blue,
   .case__description_color_red,
   .case__description_color_green {
