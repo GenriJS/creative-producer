@@ -719,18 +719,25 @@ input[type="radio"]:checked + .form__radio-button {
 }
 
 .form__input-file-labels {
-display: flex;
-width: calc(100% - 4px);
-height: 32px;
-justify-content: center;
-align-items: center;
-flex-shrink: 0;
-border-radius: 20px;
-border: 2px dashed #BDAB90;
-margin-bottom: 20px;
-color: #BDAB90;
-font-size: 12px;
-font-weight: 700;
+  display: flex;
+  width: calc(100% - 4px);
+  height: 32px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 20px;
+  border: 2px dashed #BDAB90;
+  margin-bottom: 20px;
+  color: #BDAB90;
+  font-size: 12px;
+  font-weight: 700;
+  transition: all 0.3s ease-in-out;
+}
+
+.drag-over {
+  background-color: rgba(189, 171, 144, 0.60);
+  border: 2px dashed BDAB90;
+  color: #222220;
 }
 
 /* checkbox */
