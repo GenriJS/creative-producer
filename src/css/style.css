@@ -434,6 +434,30 @@ label {
   position: relative;
 }
 
+#case-1 {
+  order: 1;
+}
+
+#case-2 {
+  order: 2;
+}
+
+#case-3 {
+  order: 3;
+}
+
+#case-4 {
+  order: 4;
+}
+
+#case-5 {
+  order: 5;
+}
+
+#case-6 {
+  order: 6;
+}
+
 .case__cup {
   position: absolute;
   top: 24px;
@@ -1121,6 +1145,24 @@ font-weight: 700;
     width: calc(50% - 10px);
     min-height: 315px;
     padding-bottom: 30px;
+  }
+
+  #case-3 {
+    order: 4;
+    background: #92B0C6;
+  }
+
+  #case-3 .case__header .case__switch svg circle {
+    fill: #92B0C6;
+  }
+
+  #case-4 {
+    order: 3;
+    background: #90C081;
+  }
+
+  #case-4 .case__header .case__switch svg circle {
+    fill: #90C081;
   }
 
   .case__title {
