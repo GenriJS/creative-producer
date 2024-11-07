@@ -1088,6 +1088,28 @@ font-weight: 700;
   }
 
   /* cases */
+
+  .case__gradients {
+
+    top: -50px;
+    height: calc(100% + 165px);
+
+    left: -100px; 
+    width: calc(100% + 200px);
+  }
+
+  .case__gradients video {
+    -webkit-mask-image: 
+    linear-gradient(to left, transparent, black 10%),
+    linear-gradient(to right, transparent, black 10%),
+    linear-gradient(to top, transparent, black 10%),
+    linear-gradient(to bottom, transparent, black 10%);
+    mask-image: 
+    linear-gradient(to left, transparent, black 10%),
+    linear-gradient(to right, transparent, black 10%),
+    linear-gradient(to top, transparent, black 10%),
+    linear-gradient(to bottom, transparent, black 10%);
+  }
    
   .cases__elements {
     flex-direction: row;
