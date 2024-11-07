@@ -1206,6 +1206,11 @@ font-weight: 700;
   .case__description_color_green {
     font-size: 24px;
   }
+
+  .case__description_color_red_award,
+  .case__description_color_green_award {
+    font-size: 20px;
+  }
   
   .case__description-award img {
     height: 40px;
