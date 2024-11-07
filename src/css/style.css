@@ -4,10 +4,6 @@ h1, h2, h3, h4, h5, p {
   padding: 0;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   font-family: "Cruinn", sans-serif;
   font-weight: 400;
