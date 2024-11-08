@@ -3,7 +3,7 @@ function prevVolume(videoID, volumeRatio) {
         video.volume = volumeRatio;
 }
 
-prevVolume('showreel-full', 0.5);
-prevVolume('case-video-1', 0.5);
+prevVolume('showreel-full', 0.4);
+prevVolume('case-video-1', 0.3);
 prevVolume('case-video-2', 1);
-prevVolume('case-video-3', 1);
+prevVolume('case-video-3', 0.7);
