@@ -1160,6 +1160,10 @@ input[type="radio"]:checked + .form__radio-button {
     fill: #92B0C6;
   }
 
+  #case-3 .case__description h4 {
+    color: #4B5F6E;
+  }
+
   #case-4 {
     order: 3;
     background: #90C081;
@@ -1167,6 +1171,10 @@ input[type="radio"]:checked + .form__radio-button {
 
   #case-4 .case__header .case__switch svg circle {
     fill: #90C081;
+  }
+
+  #case-4 .case__description h4 {
+    color: #324C29;
   }
 
   .case__title {
