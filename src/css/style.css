@@ -967,6 +967,7 @@ input[type="radio"]:checked + .form__radio-button {
     position: absolute;
     top: -29.55px;
     left: -9.09px;
+    pointer-events: none;
   }
 
   .showreel__play:hover .showreel__play-hover {
