@@ -1070,6 +1070,7 @@ input[type="radio"]:checked + .form__radio-button {
     justify-content: space-between;
     align-items: flex-start;
     margin-bottom: 80px;
+    gap: 20px;
   }
 
   .brands__header,
@@ -1081,6 +1082,10 @@ input[type="radio"]:checked + .form__radio-button {
   margin-bottom: 50px;
   }
 
+  .brands {
+    max-width: calc(50% - 10px);
+  }
+
   .brands__element {
     width: 60px;
     height: 60px;
@@ -1089,7 +1094,6 @@ input[type="radio"]:checked + .form__radio-button {
   .brands__list_mobile_true {
     display: flex;
     justify-content: space-between;
-    max-width: 324px;
   }
 
   .brands__list_mobile_true:first-of-type {
@@ -1123,25 +1127,21 @@ input[type="radio"]:checked + .form__radio-button {
     justify-content: start;
     align-items: center;
   }
-
-  .nashume {
-    transform: translateX();
-  }
-
+  
   .atomic {
-    transform: translateX(-7px) translateY(3px);
+    transform: translateX(0px) translateY(3px);
   }
 
   .zebra {
-    transform: translateY(5px);
+    transform: translateY(4px);
+  }
+
+  .dada {
+    transform: translateX(-7px);
   }
 
   .cgf {
-    transform: translateX(7px) translateY(-3px);
-  }
-
-  .stereotactic {
-    transform: translateY(-5px);
+    transform: translateX(-6px);
   }
 
   /* cases */
