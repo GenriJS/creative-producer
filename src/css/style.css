@@ -1,7 +1,10 @@
-
 h1, h2, h3, h4, h5, p {
   margin: 0;
   padding: 0;
+}
+
+html {
+  cursor: url('/src/img/cursor/default.png') 11 1, auto;
 }
 
 body {
@@ -9,6 +12,12 @@ body {
   font-weight: 400;
   color: #232323;
   background-color: #EEEAD9;
+}
+
+[style*="cursor: pointer"],
+a,
+button {
+    cursor: url('/src/img/cursor/pointer.png') 7 0, pointer;
 }
 
 .outer-container {
@@ -572,7 +581,7 @@ label {
 
 .case__switch {
   height: 40px;
-  cursor: pointer;
+  cursor: url('/src/img/cursor/pointer.png') 7 0, pointer;
 }
 
 .case__switch svg circle {
@@ -661,6 +670,7 @@ label {
   padding: 10px 16px;
   justify-content: center;
   transition: background 500ms;
+  cursor: url('/src/img/cursor/pointer.png') 7 0, pointer;
 }
 
 input[type="radio"] {
@@ -692,6 +702,7 @@ input[type="radio"]:checked + .form__radio-button {
   padding: 0 16px;
   font-size: 12px;
   font-weight: 400;
+  cursor: url('/src/img/cursor/pointer.png') 7 0, pointer;
 }
 
 .form__input-name,
@@ -732,6 +743,7 @@ input[type="radio"]:checked + .form__radio-button {
   font-size: 12px;
   font-weight: 700;
   transition: all 0.3s ease-in-out;
+  cursor: url('/src/img/cursor/pointer.png') 7 0, pointer;
 }
 
 .drag-over {
@@ -747,7 +759,7 @@ input[type="radio"]:checked + .form__radio-button {
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 30px;
-  cursor: pointer;
+  cursor: url('/src/img/cursor/pointer.png') 7 0, pointer;
   position: relative;
 }
 
@@ -790,12 +802,12 @@ input[type="radio"]:checked + .form__radio-button {
   font-weight: 700;
   line-height: 24px;
   margin-bottom: 80px;
-  cursor: pointer;
+  cursor: url('/src/img/cursor/pointer.png') 7 0, pointer;
 }
 
 .form__submit:disabled {
   opacity: 0.6;
-  cursor: default;
+  cursor: url('/src/img/cursor/default.png') 11 1, auto;
 }
 
 /* validate form */
@@ -899,7 +911,7 @@ input[type="radio"]:checked + .form__radio-button {
   font-weight: 700;
   border-radius: 20px;
   background: #EEEAD9;
-  cursor: pointer;
+  cursor: url('/src/img/cursor/pointer.png') 7 0, pointer;
 }
 
 /* desktop */
@@ -958,6 +970,7 @@ input[type="radio"]:checked + .form__radio-button {
     width: 80px;
     height: 80px;
     position: relative;
+    cursor: url('/src/img/cursor/pointer.png') 7 0, pointer;
   }
 
   .showreel__play-hover {
@@ -1185,7 +1198,7 @@ input[type="radio"]:checked + .form__radio-button {
 
   .case__switch {
     height: 60px;
-    cursor: pointer;
+    cursor: url('/src/img/cursor/pointer.png') 7 0, pointer;
   }
   
   .case__switch svg circle {
