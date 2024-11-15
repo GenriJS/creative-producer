@@ -1267,8 +1267,7 @@ input[type="radio"]:checked + .form__radio-button {
     justify-content: space-between;
     align-items: flex-start;
     margin: 0 auto;
-
-    /* TODO: add game and styles */
+    gap: 20px;
   }
   
   .form__description {
@@ -1282,6 +1281,40 @@ input[type="radio"]:checked + .form__radio-button {
 
   .form__submit {
     margin-bottom: 105px;
+  }
+
+  .game {
+    width: 330px;
+    height: calc(716.984px - 109px);
+    display: flex;
+    justify-content: center;
+    border: 2px solid #BDAB90;
+    border-radius: 50px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  canvas {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tetrisBtn {
+    position: absolute;
+    left: calc(50% - 71px);
+    top: calc(50% - 28px);
+    font-size: 32px;
+    font-weight: 700;
+    background-color: #BDAB90;
+    padding: 10px 20px;
+    border-radius: 30px
+  }
+
+  #restartButton {
+    top: 57%;
+    left: calc(50% - 90px);
   }
 
   .footer {
