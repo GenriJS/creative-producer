@@ -148,6 +148,7 @@ function placeTetromino() {
 function showGameOver() {
   cancelAnimationFrame(rAF);
   gameOver = true;
+  gameStarted = false;
   context.fillStyle = 'black';
   context.globalAlpha = 0.75;
   context.fillRect(0, 0, canvas.width, canvas.height); // Исправлено!
@@ -225,9 +226,12 @@ document.addEventListener('keydown', function (e) {
   }
 });
 
+let gameStarted = false;
+
 function startGame() {
   startButton.style.display = 'none';
   gameOver = false;
+  gameStarted = true;
   restartButton.style.display = 'none';
   initPlayfield();
   tetromino = getNextTetromino();
@@ -247,7 +251,7 @@ let isFirstIntersection = true;
       }
 
       if (!entry.isIntersecting) {
-        if (gameOver === false) {
+        if (gameStarted === true) {
           showGameOver()
         }
       } else {
