@@ -808,6 +808,10 @@ input[type="radio"]:checked + .form__radio-button {
   line-height: normal;
 }
 
+.form__checkbox-text a {
+  color: #232323;
+}
+
 /* submit */
 
 .form__submit {
@@ -879,8 +883,21 @@ input[type="radio"]:checked + .form__radio-button {
 
 .footer__copy {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 700;
+  color: #BDAB90;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  gap: 10px;
 }
+
+.footer__copy a {
+  color: #BDAB90;
+  text-decoration: underline;
+}
+
 
 /* form sent */
 
