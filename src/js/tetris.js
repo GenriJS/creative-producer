@@ -242,3 +242,30 @@ function startGame() {
 
 startButton.addEventListener('click', startGame);
 restartButton.addEventListener('click', startGame);
+
+let isFirstIntersection = true;
+
+  function handleIntersection(entries, observer) {
+    entries.forEach(entry => {
+      if (isFirstIntersection) {
+        isFirstIntersection = false;
+        return;
+      }
+
+      if (!entry.isIntersecting) {
+        if (gameOver === false) {
+          showGameOver()
+        }
+      } else {
+        return
+      }
+    });
+  }
+
+  const observer = new IntersectionObserver(handleIntersection, {
+    root: null,
+    threshold: 0,
+  });
+
+  const target = document.getElementById('game');
+  observer.observe(target);
