@@ -953,6 +953,12 @@ input[type="radio"]:checked + .form__radio-button {
   cursor: url('/src/img/cursor/pointer.png') 7 0, pointer;
 }
 
+
+
+.game {
+  display: none;
+}
+
 /* desktop */
 
 @media (min-width: 770px) { 
@@ -1326,18 +1332,25 @@ input[type="radio"]:checked + .form__radio-button {
 
   .tetrisBtn {
     position: absolute;
-    left: calc(50% - 71px);
-    top: calc(50% - 28px);
+    left: calc(50% - 71.5px);
+    top: calc(50% - 30px);
     font-size: 32px;
     font-weight: 700;
+    
+    background-color: #D0C5AD;
+    padding: 12px 22px;
+    border-radius: 30px;
+    cursor: url('/src/img/cursor/pointer.png') 7 0, pointer;
+    transition: background 300ms;
+  }
+
+  .tetrisBtn:hover {
     background-color: #BDAB90;
-    padding: 10px 20px;
-    border-radius: 30px
   }
 
   #restartButton {
-    top: 57%;
-    left: calc(50% - 90px);
+    top: calc(50% - 30px);
+    left: calc(50% - 125px);
   }
 
   .footer {

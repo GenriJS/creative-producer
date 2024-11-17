@@ -150,14 +150,8 @@ function showGameOver() {
   gameOver = true;
   context.fillStyle = 'black';
   context.globalAlpha = 0.75;
-  context.fillRect(0, canvas.height / 2 - 30, canvas.width, 60);
+  context.fillRect(0, 0, canvas.width, canvas.height); // Исправлено!
   context.globalAlpha = 1;
-  context.fillStyle = 'white';
-  context.font = '36px Arial';
-  context.textAlign = 'center';
-  context.textBaseline = 'middle';
-  context.fillText('GAME OVER!', canvas.width / 2, canvas.height / 2);
-
   restartButton.style.display = 'block';
 }
 
