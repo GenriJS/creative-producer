@@ -1,3 +1,106 @@
+/* ru en */
+
+.header__title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.language__switch {
+  cursor: url('/src/img/cursor/pointer.png') 7 0, pointer;
+  position: relative;
+  height: 36px;
+}
+
+.language__switch-desktop {
+  display: none;
+}
+
+.language__switch-ru, .language__switch-eng {
+  position: absolute;
+  font-size: 12px;
+  font-style: normal;
+  transition: all 150ms;
+}
+
+.language__switch-circle {
+  transition: transform 500ms;
+}
+
+.language__switch.active svg rect:nth-of-type(2) {
+  transform: translateX(-36px);
+}
+
+.language__switch.active .language__switch-ru {
+  color: #EEEAD9;
+  font-weight: 500;
+}
+
+.language__switch.active .language__switch-eng {
+  color: #BDAB90;
+  font-weight: 400;
+}
+
+.language__switch-ru {
+  top: 11px;
+  left: 8px;
+  color: #BDAB90;
+  font-weight: 400;
+}
+
+.language__switch-eng {
+  top: 11px;
+  right: 7px;
+  color: #EEEAD9;
+  font-weight: 500;
+}
+
+@media (min-width: 770px) { 
+
+  .header__title-container {
+    margin-bottom: 0;
+  }
+
+  .language__switch {
+    cursor: url('/src/img/cursor/pointer.png') 7 0, pointer;
+    position: relative;
+    height: 64px;
+  }
+
+  .language__switch-mobile {
+    display: none;
+  }
+
+  .language__switch-desktop {
+    display: block;
+  }
+
+  .language__switch-circle {
+    transition: transform 500ms;
+  }
+
+  .language__switch.active svg rect:nth-of-type(2) {
+    transform: translateX(-65px);
+  }
+
+  .language__switch-ru, .language__switch-eng {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .language__switch-ru {
+    left: 16px;
+    top: 18px;
+  }
+
+  .language__switch-eng {
+    top: 18px;
+    right: 16px;
+  }
+}
+
+/* main */
 h1, h2, h3, h4, h5, p {
   margin: 0;
   padding: 0;
@@ -78,7 +181,6 @@ label {
 .header h2 {
   font-size: 32px;
   font-weight: 700;
-  margin-bottom: 20px;
 }
 
 .nav {
@@ -95,6 +197,9 @@ label {
   padding: 8px;
   border: 2px solid;
   border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   transition: 200ms;
   -webkit-tap-highlight-color: transparent;
   user-select: none;
@@ -983,6 +1088,12 @@ input[type="radio"]:checked + .form__radio-button {
   .nav {
     gap: 30px;
     margin-bottom: 0;
+  }
+
+  .nav__element {
+    border-radius: 25px;
+    height: 28px;
+    padding: 16px;
   }
 
   /* showreel */

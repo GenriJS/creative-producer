@@ -31,11 +31,29 @@
       <div class="container">
         <header class="header">
           <div class="header__container">
-            <h2 class="header__title">владислав<br>подолян</h2>
+            <div class="header__title-container">
+              <h2 class="header__title">владислав<br>подолян</h2>
+              <div class="language__switch language__switch-mobile active">
+                <svg width="72" height="36" viewBox="0 0 72 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="1" y="1" width="70" height="34" rx="17" stroke="#D7CDBC" stroke-width="2"/>
+                  <rect class="language__switch-circle" x="36" width="36" height="36" rx="18" fill="#BDAB90"/>
+                </svg>
+                <p class="language__switch-ru">рус</p>
+                <p class="language__switch-eng">eng</p>
+              </div>
+            </div>
             <nav class="nav">
               <a class="nav__element nav__element_color_green" href="#info">инфо</a>
               <a class="nav__element nav__element_color_blue" href="#case">кейсы</a>
               <a class="nav__element nav__element_color_red" href="#contacts">контакты</a>
+              <div class="language__switch language__switch-desktop active">
+                <svg class="language__switch-desktop" xmlns="http://www.w3.org/2000/svg" width="131" height="64" viewBox="0 0 131 64" fill="none">
+                  <rect x="1" y="1" width="129" height="62" rx="29" stroke="#BDAB90" stroke-width="2"/>
+                  <rect class="language__switch-circle" x="65" width="66" height="64" rx="30" fill="#BDAB90"/>
+                </svg>
+                <p class="language__switch-ru">рус</p>
+                <p class="language__switch-eng">eng</p>
+              </div>
             </nav>
           </div>
         </header>
@@ -508,5 +526,6 @@
     <script src="/src/js/scroll.js"></script>
     <script src="/src/js/videoVolume.js"></script>
     <script src="/src/js/tetris.js"></script>
+    <script src="/src/js/lang.js"></script>
   </body>
 </html>
