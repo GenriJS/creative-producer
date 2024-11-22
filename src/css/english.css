@@ -3,3 +3,8 @@
   left: -6px;
 }
 
+@media (min-width: 770px) { 
+  .info__text-skills-container {
+    margin-bottom: 45px;
+  }
+}

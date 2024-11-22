@@ -80,7 +80,7 @@ const translations = [
   { 
     selector: '.info__text', 
     ru: 'салют! я влад, мне&nbsp;24. живу&nbsp;в&nbsp;москве. имею опыт работы как&nbsp;на&nbsp;агентской, так&nbsp;и&nbsp;на&nbsp;клиентской стороне. люблю, умею, практикую в&nbsp;продакшен полного цикла: смогу придумать, запитчить и&nbsp;засупервайзить идею для&nbsp;вашего бизнеса. летсгоу&nbsp;сотрудничать&nbsp;:)', 
-    en: 'hey! it’s me vlad and i’m based in moscow but working worldwide. agency or client side? been there, done that, know the drill inside-out. i’m all about full-cycle production, from dreaming up big ideas and pitching ‘em to nailing down every step through to final delivery. if you’re after someone with a hands-on and no-BS approach, let’s team up and make some next-level stuff happen :)' 
+    en: 'hey! it’s me vlad and i’m based in&nbsp;moscow but&nbsp;working worldwide. agency or&nbsp;client side? been there, done that, know the&nbsp;drill inside-out. i’m&nbsp;all about full-cycle production, from dreaming up big ideas and&nbsp;pitching ‘em to&nbsp;nailing down every step through to&nbsp;final delivery. if you’re after someone with a&nbsp;hands-on and&nbsp;no-bs approach, let’s team up and&nbsp;make some next-level stuff happen :)' 
   },
   { selector: '#skillCMP', ru: 'фрк 360', en: 'cmp 360' },
   { selector: '#skillShowrun', ru: 'шоуран', en: 'showrun' },
@@ -102,18 +102,18 @@ const translations = [
   {
     selector: '#case-1-about',
     ru: 'летняя 360 кампания Okko вместе с&nbsp;Zebra Hero и ролик, снятый Андреем и&nbsp;Антоном Шавкеро.',
-    en: 'Okko’s television commercial in collaboration with Zebra Hero, produced by Shavkero brothers.'
+    en: 'Okko’s television commercial in&nbsp;collaboration with Zebra Hero, produced by&nbsp;Shavkero brothers.'
   },
   {
     selector: '#case-1-impact',
     ru: 'упаковка big idea, скриптрайтинг ролика, разверстка концепции на&nbsp;различные форматы: кейвижуалы, оффлайн, диджитал.',
-    en: 'creation of the big idea, conceptual ideation, video scriptwriting, and creative oversight throughout the pre- and post-production.'
+    en: 'creation of the big idea, conceptual ideation, video scriptwriting, and&nbsp;creative oversight throughout the&nbsp;pre-&nbsp;and&nbsp;post-production.'
   },
   { selector: '#caseYandex', ru: 'яндекс', en: 'yandex' },
   {
     selector: '#case-2-about',
     ru: 'промо-кампания проекта “Искра” для&nbsp;Яндекс Музыки совместно с&nbsp;На&nbsp;Шуме, <a href="https://www.youtube.com/watch?v=33rFk4_IsEM" target="_blank">спешл</a> с&nbsp;участием Нашей Тани, Амуры и&nbsp;Liili.',
-    en: 'promo-campaign for the Iskra project by Yandex Music, produced by On the Noise, featuring Nasha Tanya, Amura, and Liili.'
+    en: '<a href="https://www.youtube.com/watch?v=33rFk4_IsEM" target="_blank">promo-campaign</a> for the Iskra project by Yandex Music, produced by&nbsp;On&nbsp;the&nbsp;Noise, featuring Nasha Tanya, Amura, and Liili.'
   },
   {
     selector: '#case-2-impact',
@@ -123,7 +123,7 @@ const translations = [
   {
     selector: '#case-3-about',
     ru: 'имиджевая фрк&nbsp;360 для&nbsp;Okko и&nbsp;ролик, снятый совместно со&nbsp;Stereotactic на&nbsp;саундтрек Тоси&nbsp;Чайкиной.',
-    en: 'Okko’s summer 360 campaign featuring a video produced by Stereotactic, with the soundtrack by Tosya Chaikina.'
+    en: 'Okko’s summer 360 campaign featuring a&nbsp;video produced by Stereotactic, with the soundtrack by Tosya Chaikina.'
   },
   {
     selector: '#case-3-impact',
@@ -139,7 +139,7 @@ const translations = [
   {
     selector: '#case-4-about',
     ru: 'большой <a href="https://www.youtube.com/watch?v=K17DKfhYgCk" target="_blank">выпуск</a> НаШуме с&nbsp;Яном Топлесом в&nbsp;честь <span style="white-space: nowrap;">10-летия</span> его проекта.',
-    en: 'On the Noise’s <a href="https://www.youtube.com/watch?v=K17DKfhYgCk" target="_blank">episode</a> featuring Ian Toples, celebrating the 10th anniversary of his project.'
+    en: 'On the Noise’s <a href="https://www.youtube.com/watch?v=K17DKfhYgCk" target="_blank">episode</a> featuring Ian Toples, celebrating the 10th project’s anniversary'
   },
   {
     selector: '#case-4-impact',
