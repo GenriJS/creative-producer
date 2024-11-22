@@ -233,6 +233,11 @@ const translations = [
     ru: 'Я соглашаюсь с <a href="personal_data.pdf" target="_blank">условиями</a> обработки и использования моих персональных данных.',
     en: 'I agree to the <a href="personal_data.pdf" target="_blank">terms</a> of processing and use of my personal data.'
   },
+  { 
+    selector: '#submitButton', 
+    ru: { value: 'отправить' }, 
+    en: { value: 'send' }
+  },
   { selector: '.footer__copy',
     ru: '<p>© 2024 Владислав Подолян. Все&nbsp;права&nbsp;защищены.<p><a href="/policy.pdf" target="_blank">политика конфиденциальности</a>',
     en: '<p>© 2024 Vladislav Podolian. All&nbsp;rights&nbsp;reserved.<p><a href="/policy.pdf" target="_blank">privacy policy</a>'
@@ -241,6 +246,6 @@ const translations = [
   { selector: '#startButton', ru: 'играть', en: 'play' },
   { selector: '#restartButton', ru: 'еще разок? :)', en: 'one more time? :)' },
 
-  { selector: '#thanks', ru: 'спасибо!<br>я скоро вам напишу :)', en: 'appreciate!<br>i will hit you up shortly :)' },
+  { selector: '#thanks', ru: 'спасибо!<br>я скоро вам напишу :)', en: 'appreciate!<br>i’ll hit you up shortly :)' },
   { selector: '#closeBtn', ru: 'продолжить', en: 'continue' },
 ];
