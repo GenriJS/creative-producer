@@ -36,7 +36,11 @@ document.addEventListener("DOMContentLoaded", () => {
       if (input.type === 'text') {
         messageElement.style.display = "flex";
         const messageContent = messageElement.querySelector('p');
-        messageContent.textContent = "обязательное поле";
+        if (currentLanguage === 'ru') {
+          messageContent.textContent = "обязательное поле";
+        } else {
+          messageContent.textContent = "required field";
+        }
         if (input === nameInput) {
           nameFill = false;
         } else {
@@ -46,7 +50,11 @@ document.addEventListener("DOMContentLoaded", () => {
       if (input.type === 'checkbox') {
         messageElement.style.display = "flex";
         const messageContent = messageElement.querySelector('p');
-        messageContent.textContent = "необходимо дать своё согласие";
+        if (currentLanguage === 'ru') {
+          messageContent.textContent = "необходимо дать своё согласие";
+        } else {
+          messageContent.textContent = "you must give your consent";
+        }
         checkboxFill = false;
       }
     }
