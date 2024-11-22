@@ -43,9 +43,9 @@
               </div>
             </div>
             <nav class="nav">
-              <a class="nav__element nav__element_color_green" href="#info">инфо</a>
-              <a class="nav__element nav__element_color_blue" href="#case">кейсы</a>
-              <a class="nav__element nav__element_color_red" href="#contacts">контакты</a>
+              <a id="navLinkInfo" class="nav__element nav__element_color_green" href="#info">инфо</a>
+              <a id="navLinkCase" class="nav__element nav__element_color_blue" href="#case">кейсы</a>
+              <a id="navLinkContact" class="nav__element nav__element_color_red" href="#contacts">контакты</a>
               <div class="language__switch language__switch-desktop active">
                 <svg class="language__switch-desktop" xmlns="http://www.w3.org/2000/svg" width="131" height="64" viewBox="0 0 131 64" fill="none">
                   <rect x="1" y="1" width="129" height="62" rx="29" stroke="#BDAB90" stroke-width="2"/>
@@ -70,7 +70,7 @@
               </p>
               <div class="showreel__play">
                 <img class="showreel__play-img" src="/src/img/icons/play-showreel.svg" alt="play button">
-                <img class="showreel__play-hover" src="/src/img/icons/tooltip.svg" alt="play button">
+                <img class="showreel__play-hover" src="/src/img/icons/tooltip-ru.svg" alt="play button">
               </div>
             </div>
             
@@ -114,16 +114,16 @@
   
               <div class="info__skills">
                   <div class="info__skills-container">
-                    <div class="info__skill info__skill_color_green">фрк 360</div>
+                    <div id="skillCMP" class="info__skill info__skill_color_green">фрк 360</div>
                     <div class="info__skill info__skill_color_red">olv</div>
                     <div class="info__skill info__skill_color_blue">digital</div>
                   </div>
                   <div class="info__skills-container">
                     <div class="info__skill info__skill_color_red">btl</div>
-                    <div class="info__skill info__skill_color_blue">шоуран</div>
+                    <div id="skillShowrun" class="info__skill info__skill_color_blue">шоуран</div>
                     <div class="info__skill info__skill_color_green">event</div>
                   </div>
-              </div> 
+              </div>
             </div>
 
           </div>
@@ -227,10 +227,10 @@
                   </div>
                 </div>
                 <div class="case__description">
-                  <h4 class="case__description_color_blue">что делали мы:</h4>
-                  <p>летняя 360 кампания Okko вместе с&nbsp;Zebra Hero и ролик, снятый Андреем и&nbsp;Антоном Шавкеро.</p>
-                  <h4 class="case__description_color_blue">что делал я:</h4>
-                  <p>упаковка big idea, скриптрайтинг ролика, разверстка концепции на&nbsp;различные форматы: кейвижуалы, оффлайн, диджитал.</p>
+                  <h4 class="case__description_color_blue what-we-do">что делали мы:</h4>
+                  <p id="case-1-about">летняя 360 кампания Okko вместе с&nbsp;Zebra Hero и ролик, снятый Андреем и&nbsp;Антоном Шавкеро.</p>
+                  <h4 class="case__description_color_blue what-i-do">что делал я:</h4>
+                  <p id="case-1-impact">упаковка big idea, скриптрайтинг ролика, разверстка концепции на&nbsp;различные форматы: кейвижуалы, оффлайн, диджитал.</p>
                 </div>
               </div>
               <div class="case case_сolor_red" id="case-2">
@@ -239,7 +239,7 @@
                   Ваш браузер не поддерживает тег видео.
                 </video>
                 <div class="case__header">
-                  <div class="case__title">
+                  <div class="case__title" id="caseYandex">
                     яндекс
                   </div>
                   <div class="case__switch">
@@ -254,10 +254,10 @@
                   </div>
                 </div>
                 <div class="case__description">
-                  <h4 class="case__description_color_red">что делали мы:</h4>
-                  <p>промо-кампания проекта “Искра” для&nbsp;Яндекс Музыки совместно с&nbsp;На&nbsp;Шуме, <a href="https://www.youtube.com/watch?v=33rFk4_IsEM" target="_blank">спешл</a> с&nbsp;участием Нашей Тани, Амуры и&nbsp;Liili.</p>
-                  <h4 class="case__description_color_red">что делал я:</h4>
-                  <p>скриптдокторинг, сценарий монтажа.</p>
+                  <h4 class="case__description_color_red what-we-do">что делали мы:</h4>
+                  <p id="case-2-about">промо-кампания проекта “Искра” для&nbsp;Яндекс Музыки совместно с&nbsp;На&nbsp;Шуме, <a href="https://www.youtube.com/watch?v=33rFk4_IsEM" target="_blank">спешл</a> с&nbsp;участием Нашей Тани, Амуры и&nbsp;Liili.</p>
+                  <h4 class="case__description_color_red what-i-do">что делал я:</h4>
+                  <p id="case-2-impact">скриптдокторинг, сценарий монтажа.</p>
                 </div>
               </div>
               <div class="case case_сolor_green" id="case-3">
@@ -282,6 +282,10 @@
                   </div>
                 </div>
                 <div class="case__description">
+                  <h4 class="case__description_color_green what-we-do">что делали мы:</h4>
+                  <p id="case-3-about">имиджевая фрк&nbsp;360 для&nbsp;Okko и&nbsp;ролик, снятый совместно со&nbsp;Stereotactic на&nbsp;саундтрек Тоси&nbsp;Чайкиной.</p>
+                  <h4 class="case__description_color_green what-i-do">что делал я:</h4>
+                  <p id="case-3-impact">упаковка big&nbsp;idea, скриптрайтинг ролика, разработка джингла и&nbsp;саундтрека, разверстка концепции на&nbsp;различные форматы.</p>
                   <div class="case__description-award" style="margin-top: 20px;">
                     <p id="case-3-award">
                       <span class="case__description_color_green case__description_color_green_award">МедиаБренд 2024</span><br>лучший<br>имиджевый проморолик
@@ -296,7 +300,7 @@
                   Ваш браузер не поддерживает тег видео.
                 </video>
                 <div class="case__header">
-                  <div class="case__title">
+                  <div class="case__title" id="caseToples">
                     топлес
                   </div>
                   <div class="case__switch">
@@ -311,10 +315,10 @@
                   </div>
                 </div>
                 <div class="case__description">
-                  <h4 class="case__description_color_blue">что делали мы:</h4>
-                  <p>большой <a href="https://www.youtube.com/watch?v=K17DKfhYgCk" target="_blank">выпуск</a> НаШуме с&nbsp;Яном Топлесом в&nbsp;честь <span style="white-space: nowrap;">10-летия</span> его проекта.</p>
-                  <h4 class="case__description_color_blue">что делал я:</h4>
-                  <p>скриптрайтинг,<br>упаковка коммерческих интеграций.</p>
+                  <h4 class="case__description_color_blue what-we-do">что делали мы:</h4>
+                  <p id="case-4-about">большой <a href="https://www.youtube.com/watch?v=K17DKfhYgCk" target="_blank">выпуск</a> НаШуме с&nbsp;Яном Топлесом в&nbsp;честь <span style="white-space: nowrap;">10-летия</span> его проекта.</p>
+                  <h4 class="case__description_color_blue what-i-do">что делал я:</h4>
+                  <p id="case-4-impact">скриптрайтинг,<br>упаковка коммерческих интеграций.</p>
                 </div>
               </div>
               <div class="case case_сolor_red" id="case-5">
@@ -339,18 +343,18 @@
                   </div>
                 </div>
                 <div class="case__description">
-                  <h4 class="case__description_color_red">что делали мы:</h4>
-                  <p>гала-ивент в&nbsp;кинотеатре “Октябрь” перед стартом нового сезона.</p>
-                  <h4 class="case__description_color_red">что делал я:</h4>
-                  <p>упаковка big&nbsp;idea, разработка визуальной айдентики, разверстка на&nbsp;различные носители и&nbsp;посмы.</p>
+                  <h4 class="case__description_color_red what-we-do">что делали мы:</h4>
+                  <p id="case-5-about">гала-ивент в&nbsp;кинотеатре “Октябрь” перед стартом нового сезона.</p>
+                  <h4 class="case__description_color_red what-i-do">что делал я:</h4>
+                  <p id="case-5-impact">упаковка big&nbsp;idea, разработка визуальной айдентики, разверстка на&nbsp;различные носители и&nbsp;посмы.</p>
                   <div class="case__description-award" style="margin-top: 20px;">
-                    <p>
+                    <p id="case-5-award-1">
                       <span class="case__description_color_red case__description_color_red_award">МедиаБренд 2023</span><br>лучший проморолик<br>специального события
                     </p>
                     <img src="/src/img/icons/emoji/first.png" alt="Первое место">
                   </div>
                   <div class="case__description-award" style="margin-top: 10px;">
-                    <p>
+                    <p id="case-5-award-2">
                       <span class="case__description_color_red case__description_color_red_award">МедиаБренд 2023</span><br>лучший имиджевый<br>ролик онлайн-кинотеатра
                     </p>
                     <img src="/src/img/icons/emoji/second.png" alt="Второе место">
@@ -364,7 +368,7 @@
                   Ваш браузер не поддерживает тег видео.
                 </video>
                 <div class="case__header">
-                  <div class="case__title">
+                  <div class="case__title" id="caseBlueprint">
                     блюпринт
                   </div>
                   <div class="case__switch">
@@ -379,12 +383,12 @@
                   </div>
                 </div>
                 <div class="case__description">
-                  <h4 class="case__description_color_green">что делали мы:</h4>
-                  <p><a href="https://theblueprint.ru/culture/special/okko-zritelskiy-opyt" target="_blank">спецпроект</a> о&nbsp;насмотренности и&nbsp;зрительском опыте совместно с&nbsp;Blueprint при&nbsp;участии Риналя Мухаметова, Софии Лебедевой и&nbsp;Лизы Ищенко.</p>
-                  <h4 class="case__description_color_green">что делал я:</h4>
-                  <p>разработка капсулы мерча, упаковка идеи и&nbsp;смыслов, креативный супервайзинг лендинга.</p>
+                  <h4 class="case__description_color_green what-we-do">что делали мы:</h4>
+                  <p id="case-6-about"><a href="https://theblueprint.ru/culture/special/okko-zritelskiy-opyt" target="_blank">спецпроект</a> о&nbsp;насмотренности и&nbsp;зрительском опыте совместно с&nbsp;Blueprint при&nbsp;участии Риналя Мухаметова, Софии Лебедевой и&nbsp;Лизы Ищенко.</p>
+                  <h4 class="case__description_color_green what-i-do">что делал я:</h4>
+                  <p id="case-6-impact">разработка капсулы мерча, упаковка идеи и&nbsp;смыслов, креативный супервайзинг лендинга.</p>
                   <div class="case__description-award" style="margin-top: 20px;">
-                    <p>
+                    <p id="case-6-award">
                       <span class="case__description_color_green case__description_color_green_award">МедиаБренд 2023</span><br>лучшая брендированная<br>или сувенирная продукция
                     </p>
                     <img class="case__description-award-img" src="/src/img/icons/emoji/third.png" alt="Третье место">
@@ -448,19 +452,19 @@
                   <div class="form__radio-container">
                     <label>
                         <input type="radio" name="workType" value="фултайм" checked>
-                        <div class="form__radio-button">фултайм</div>
+                        <div id="fulltime" class="form__radio-button">фултайм</div>
                     </label>
                     <label>
                         <input type="radio" name="workType" value="фриланс">
-                        <div class="form__radio-button">фриланс</div>
+                        <div id="freelance" class="form__radio-button">фриланс</div>
                     </label>
                     <label>
                         <input type="radio" name="workType" value="аутсорс">
-                        <div class="form__radio-button">аутсорс</div>
+                        <div id="outsorce" class="form__radio-button">аутсорс</div>
                     </label>
                     <label>
                         <input type="radio" name="workType" value="другое">
-                        <div class="form__radio-button">другое</div>
+                        <div id="other" class="form__radio-button">другое</div>
                     </label>
                   </div>
 
@@ -558,7 +562,7 @@
         </footer>
         <div class="fullscreen-container">
           <div class="form-sent">
-            <p>спасибо!<br>я скоро вам напишу :)</p>
+            <p id="thanks">спасибо!<br>я скоро вам напишу :)</p>
             <img src="/src/img/icons/form-sent.svg" alt="ok">
             <div id="closeBtn">продолжить</div>
           </div>
