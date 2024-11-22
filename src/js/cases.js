@@ -2,7 +2,7 @@ const switches = document.querySelectorAll('.case__switch');
 
 function handleSingleColumnSwitch() {
   switches.forEach(switchElement => {
-    switchElement.addEventListener('click', function() {
+    switchElement.addEventListener('click', debounce(function() {
       const caseElement = this.closest('.case'); 
       const description = caseElement.querySelector('.case__description'); 
 
@@ -22,13 +22,13 @@ function handleSingleColumnSwitch() {
       } else {
         description.style.height = `${description.scrollHeight}px`;
       }
-    });
+    }, 10));
   });
 }
 
 function handleTwoColumnSwitch() {
   switches.forEach(switchElement => {
-    switchElement.addEventListener('click', function() {
+    switchElement.addEventListener('click', debounce(function() {
       const caseElement = this.closest('.case'); 
       const description = caseElement.querySelector('.case__description'); 
 
@@ -48,7 +48,7 @@ function handleTwoColumnSwitch() {
       } else {
         description.style.height = `${description.scrollHeight}px`;
       }
-    });
+    }, 10));
   });
 }
 
@@ -70,6 +70,14 @@ function setupSwitchHandlers() {
   } else {
     handleSingleColumnSwitch();
   }
+}
+
+let debounceTimer;
+function debounce(func, delay) {
+  return function (...args) {
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(() => func.apply(this, args), delay);
+  };
 }
 
 setupSwitchHandlers();
