@@ -11,6 +11,8 @@
   cursor: url('/src/img/cursor/pointer.png') 7 0, pointer;
   position: relative;
   height: 36px;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
 }
 
 .language__switch-desktop {
