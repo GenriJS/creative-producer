@@ -9,8 +9,11 @@ let tetromino = null;
 let rAF = null;
 let gameOver = false;
 
+
+
 const startButton = document.getElementById('startButton');
 const restartButton = document.getElementById('restartButton');
+const tetrisControls = document.querySelector('.tetris-controls');
 restartButton.style.display = 'none';
 
 function initPlayfield() {
@@ -64,13 +67,13 @@ const tetrominos = {
 };
 
 const colors = {
-  'I': '#1D5960',
+  'I': '#90C081', // повтор зеленого
   'O': '#BDAB90',
   'T': '#8E83DA',
   'S': '#90C081',
   'Z': '#E89A8B',
   'J': '#92B0C6',
-  'L': '#9B4231'
+  'L': '#E89A8B' // повтор коралл
 };
 
 function getRandomInt(min, max) {
@@ -230,6 +233,7 @@ let gameStarted = false;
 
 function startGame() {
   startButton.style.display = 'none';
+  tetrisControls.style.display = 'none';
   gameOver = false;
   gameStarted = true;
   restartButton.style.display = 'none';

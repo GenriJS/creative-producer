@@ -7,4 +7,14 @@
   .info__text-skills-container {
     margin-bottom: 45px;
   }
+
+  .tetrisBtn {
+    left: calc(50% - 43.7px);
+    top: calc(50% - 31px);
+  }
+
+  #restartButton {
+    top: calc(50% - 31px);
+    left: calc(50% - 106.1px);
+  }
 }
