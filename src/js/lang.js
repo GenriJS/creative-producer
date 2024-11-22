@@ -186,7 +186,7 @@ const translations = [
 
   {
     selector: '#case-7-about',
-    ru: 'дженерик-видео для фестивалей<br>и кинотеатров под саундтрек “смотри<br>меня, смотри”.',
+    ru: 'дженерик-видео для фестивалей<br>и кинотеатров под саундтрек “смотри&nbsp;меня,&nbsp;смотри”.',
     en: 'generic promo video for festivals<br>and cinemas.'
   },
   {
