@@ -132,8 +132,8 @@ button {
   padding-top: 50px;
   margin: 0 24px;
   max-width: 930px;
-  transform-origin: center bottom;
-  animation: pageIntro 4s ease-out forwards;
+  /* transform-origin: center bottom;
+  animation: pageIntro 4s ease-out forwards; */
 }
 
 @keyframes pageIntro {
