@@ -80,7 +80,7 @@ const translations = [
   { 
     selector: '.info__text', 
     ru: 'салют! я влад, мне&nbsp;24. живу&nbsp;в&nbsp;москве. имею опыт работы как&nbsp;на&nbsp;агентской, так&nbsp;и&nbsp;на&nbsp;клиентской стороне. люблю, умею, практикую в&nbsp;продакшен полного цикла: смогу придумать, запитчить и&nbsp;засупервайзить идею для&nbsp;вашего бизнеса. летсгоу&nbsp;сотрудничать&nbsp;:)', 
-    en: 'hey! it’s me vlad and i’m based in&nbsp;moscow but&nbsp;working worldwide. agency or&nbsp;client side? been there, done that, know the&nbsp;drill inside-out. i’m&nbsp;all about full-cycle production, from dreaming up big ideas and&nbsp;pitching ‘em to&nbsp;nailing down every step through to&nbsp;final delivery. if you’re after someone with a&nbsp;hands-on and&nbsp;no-bs approach, let’s team up and&nbsp;make some next-level stuff happen :)' 
+    en: 'hey! it’s me vlad and i’m based in&nbsp;moscow but&nbsp;working worldwide. agency or&nbsp;client side? been there, done&nbsp;that, know the&nbsp;drill inside-out. i’m&nbsp;all&nbsp;about full-cycle production, from dreaming up big ideas and&nbsp;pitching ‘em to&nbsp;nailing down every step through to&nbsp;final delivery. if you’re after someone with a&nbsp;hands-on and&nbsp;no-bs approach, let’s team up and&nbsp;make some next-level stuff happen :)' 
   },
   { selector: '#skillCMP', ru: 'фрк 360', en: 'cmp 360' },
   { selector: '#skillShowrun', ru: 'шоуран', en: 'showrun' },

@@ -377,8 +377,8 @@ label {
 
 @media (max-width: 550px) { 
   .info__ghost {
-    top: 92%;
-    left: 70%;
+    top: 85%;
+    left: 67%;
   }
 }
 
@@ -391,7 +391,7 @@ label {
 
 @media (max-width: 350px) { 
   .info__ghost {
-    top: 80%;
+    top: 79%;
   left: 55%;
   }
 }
