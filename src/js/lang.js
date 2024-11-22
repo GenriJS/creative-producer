@@ -4,13 +4,13 @@ const langSwitchMobile = document.querySelector('.language__switch-mobile');
 
 
 langSwitchDesktop.addEventListener('click', function () {
-  this.classList.toggle('active');
+  this.classList.toggle('russian');
   langSwitchMobile.classList.toggle('active');
   toggleLanguage();
 });
 
 langSwitchMobile.addEventListener('click', function () {
-  this.classList.toggle('active');
+  this.classList.toggle('russian');
   langSwitchDesktop.classList.toggle('active');
   toggleLanguage();
 });

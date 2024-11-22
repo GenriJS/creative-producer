@@ -28,16 +28,16 @@
   transition: transform 500ms;
 }
 
-.language__switch.active svg rect:nth-of-type(2) {
+.language__switch.russian svg rect:nth-of-type(2) {
   transform: translateX(-36px);
 }
 
-.language__switch.active .language__switch-ru {
+.language__switch.russian .language__switch-ru {
   color: #EEEAD9;
   font-weight: 500;
 }
 
-.language__switch.active .language__switch-eng {
+.language__switch.russian .language__switch-eng {
   color: #BDAB90;
   font-weight: 400;
 }
@@ -80,7 +80,7 @@
     transition: transform 500ms;
   }
 
-  .language__switch.active svg rect:nth-of-type(2) {
+  .language__switch.russian svg rect:nth-of-type(2) {
     transform: translateX(-65px);
   }
 
