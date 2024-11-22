@@ -735,7 +735,7 @@ label {
 
 /* gradient cases */
 
-.case__gradients {
+.case__gradients-fix {
   position: absolute;
   z-index: -2;
   top: 0;
@@ -744,7 +744,7 @@ label {
   height: calc(100% + 65px);
 }
 
-.case__gradients video {
+.case__gradients-fix video {
   height: 100%;
   width: 100%;
   object-fit: fill;
@@ -1292,7 +1292,7 @@ input[type="radio"]:checked + .form__radio-button {
 
   /* cases */
 
-  .case__gradients {
+  .case__gradients-fix {
 
     top: -50px;
     height: calc(100% + 165px);
@@ -1301,7 +1301,7 @@ input[type="radio"]:checked + .form__radio-button {
     width: calc(100% + 200px);
   }
 
-  .case__gradients video {
+  .case__gradients-fix video {
     -webkit-mask-image: 
     linear-gradient(to left, transparent, black 10%),
     linear-gradient(to right, transparent, black 10%),
