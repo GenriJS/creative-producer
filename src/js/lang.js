@@ -7,12 +7,14 @@ langSwitchDesktop.addEventListener('click', function () {
   this.classList.toggle('russian');
   langSwitchMobile.classList.toggle('active');
   toggleLanguage();
+  updateYear();
 });
 
 langSwitchMobile.addEventListener('click', function () {
   this.classList.toggle('russian');
   langSwitchDesktop.classList.toggle('active');
   toggleLanguage();
+  updateYear();
 });
 
 let currentLanguage = 'ru';
@@ -239,8 +241,8 @@ const translations = [
     en: { value: 'send' }
   },
   { selector: '.footer__copy',
-    ru: '<p>© 2024 Владислав Подолян. Все&nbsp;права&nbsp;защищены.<p><a href="/policy.pdf" target="_blank">политика конфиденциальности</a>',
-    en: '<p>© 2024 Vladislav Podolian. All&nbsp;rights&nbsp;reserved.<p><a href="/policy.pdf" target="_blank">privacy policy</a>'
+    ru: '<p>© <span id="currentYear"></span> Владислав Подолян. Все&nbsp;права&nbsp;защищены.<p><a href="/policy.pdf" target="_blank">политика конфиденциальности</a>',
+    en: '<p>© <span id="currentYear"></span> Vladislav Podolian. All&nbsp;rights&nbsp;reserved.<p><a href="/policy.pdf" target="_blank">privacy policy</a>'
   },
 
   { selector: '#startButton', ru: 'играть', en: 'play' },

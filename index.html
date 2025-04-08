@@ -557,7 +557,7 @@
             </a>
           </div>
           <div class="footer__copy">
-            <p>© <span id="currentYear"></span> Владислав Подолян. Все&nbsp;права&nbsp;защищены.<p>
+            <p>© <span id="currentYear"></span> Владислав Подолян. Все&nbsp;права&nbsp;защищены.</p>
             <a href="/policy.pdf" target="_blank">политика конфиденциальности</a>
           </div>
         </footer>
@@ -571,8 +571,11 @@
       </div>
     </div>
     <script>
-      const currentYear = new Date().getFullYear();
-      document.getElementById("currentYear").textContent = currentYear;
+      function updateYear() {
+        const currentYear = new Date().getFullYear();
+        document.getElementById("currentYear").textContent = currentYear;
+      }
+      updateYear();
     </script>
     <script src="/src/js/validateForm.js"></script>
     <script src="/src/js/form.js"></script>
