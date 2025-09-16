@@ -213,7 +213,7 @@ const translations = [
   },
   {
     selector: '#case-8-about',
-    ru: 'ФРК 360: olv-ролики, наружная реклама, influence, диджитал-спецпроекты.',
+    ru: 'фрк 360: olv-ролики, наружная реклама, influence, диджитал-спецпроекты.',
     en: '360° campaign: olv-spots, outdoor, influencer marketing, digital special projects.'
   },
   {
@@ -222,8 +222,8 @@ const translations = [
     en: 'concept development, messaging line, scriptwriting and&nbsp;creative supervision.'
   },{
     selector: '#case-9-about',
-    ru: 'тематические прямые <a href="https://vkvideo.ru/video-9695053_456241024" target="_blank">эфиры</a> (15-20 тыс. зрителей в лайве) с квизовыми механиками и&nbsp;челленджами.',
-    en: 'produced themed <a href="https://vkvideo.ru/video-9695053_456241024" target="_blank">live streams</a> (15–20K live viewers) with&nbsp;interactive quizzes and&nbsp;challenges.'
+    ru: 'тематические прямые <a href="https://vkvideo.ru/video-9695053_456241024" target="_blank">эфиры</a> (15&#8209;20&nbsp;тыс.&nbsp;зрителей в&nbsp;лайве) с&nbsp;игровыми&nbsp;механиками.',
+    en: 'produced themed <a href="https://vkvideo.ru/video-9695053_456241024" target="_blank">live streams</a> (15&#8209;20K&nbsp;live&nbsp;viewers) with&nbsp;interactive quizzes and&nbsp;challenges.'
   },
   {
     selector: '#case-9-impact',
