@@ -1417,15 +1417,15 @@ input[type="radio"]:checked + .form__radio-button {
 
   #case-9 {
     order: 1;
-    background: #92B0C6;
+    background: #E89A8B;
   }
 
   #case-9 .case__header .case__switch svg circle {
-    fill: #92B0C6;
+    fill: #E89A8B;
   }
 
   #case-9 .case__description h4 {
-    color: #4B5F6E;
+    color: #9B4231;
   }
 
   .case__title {
