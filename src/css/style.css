@@ -540,6 +540,10 @@ label {
   top: 2px;
 }
 
+.hateagency img {
+  width: 120px;
+}
+
 /* cases */
 
 .cases {
@@ -594,6 +598,14 @@ label {
 
 #case-7 {
   order: 7;
+}
+
+#case-8 {
+  order: 8;
+}
+
+#case-9 {
+  order: 9;
 }
 
 .case__cup {
@@ -1282,6 +1294,11 @@ input[type="radio"]:checked + .form__radio-button {
     transform: translateY(4px);
   }
 
+  .hateagency img {
+    width: 120px;
+    transform: translateY(2px);
+  }
+
   .dada {
     transform: translateX(-7px);
   }
@@ -1358,6 +1375,32 @@ input[type="radio"]:checked + .form__radio-button {
 
   #case-7 {
     display: none;
+  }
+
+  #case-8 {
+    order: 7;
+    background: #92B0C6;
+  }
+
+  #case-8 .case__header .case__switch svg circle {
+    fill: #92B0C6;
+  }
+
+  #case-8 .case__description h4 {
+    color: #4B5F6E;
+  }
+
+  #case-9 {
+    order: 8;
+    background: #E89A8B;
+  }
+
+  #case-9 .case__header .case__switch svg circle {
+    fill: #E89A8B;
+  }
+
+  #case-9 .case__description h4 {
+    color: #9B4231;
   }
 
   .case__title {

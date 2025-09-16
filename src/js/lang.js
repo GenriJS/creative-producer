@@ -211,6 +211,28 @@ const translations = [
     ru: '<span class="case__description_color_blue case__description_color_red_award">МедиаБренд 2024</span><br>лучший<br>оригинальный саундтрек',
     en: '<span class="case__description_color_blue case__description_color_red_award">MediaBrand 2024</span><br>the best<br>original soundtrack'
   },
+  {
+    selector: '#case-8-about',
+    ru: 'ФРК 360: olv-ролики, наружная реклама, influence, диджитал-спецпроекты.',
+    en: '360° campaign: olv-spots, outdoor, influencer marketing, digital special projects.'
+  },
+  {
+    selector: '#case-8-impact',
+    ru: 'зонтичная упаковка рекламной кампании: концептинг, разработка лайна, написание сценария, креативный супервайз.',
+    en: 'concept development, messaging line, scriptwriting and&nbsp;creative supervision.'
+  },{
+    selector: '#case-9-about',
+    ru: 'тематические прямые <a href="https://vkvideo.ru/video-9695053_456241024" target="_blank">эфиры</a> (15-20 тыс. зрителей в лайве) с квизовыми механиками и&nbsp;челленджами.',
+    en: 'produced themed <a href="https://vkvideo.ru/video-9695053_456241024" target="_blank">live streams</a> (15–20K live viewers) with&nbsp;interactive quizzes and&nbsp;challenges.'
+  },
+  {
+    selector: '#case-9-impact',
+    ru: 'лидирование запуска (шоуран): разработка концепции, написание сценария, арт-дирекшен и&nbsp;креативный супервайз на&nbsp;всех этапах проекта, проведение <a href="https://vkvideo.ru/video-9695053_456241117" target="_blank">лайва</a> в&nbsp;роли соведущего.',
+    en: 'showran the&nbsp;launch: concept development, scriptwriting, art&nbsp;direction, creative supervision and&nbsp;<a href="https://vkvideo.ru/video-9695053_456241117" target="_blank">co-hosting</a> the&nbsp;live stream.'
+  },
+
+
+
   { selector: '.form__title', ru: 'поработаем?', en: 'ready to collab?' },
   { selector: '.form__description',
     ru: 'расскажите подробнее<br>про<span id="dynamic-word">идею</span>',
