@@ -534,10 +534,18 @@ label {
   align-items: center;
 }
 
+.atomic {
+  transform: translateX(-2px);
+}
+
 
 .nashume {
   position: relative;
   top: 2px;
+}
+
+.dada {
+  transform: translateX(12px);
 }
 
 .hateagency img {
@@ -1287,7 +1295,7 @@ input[type="radio"]:checked + .form__radio-button {
   }
   
   .atomic {
-    transform: translateX(0px) translateY(3px);
+    transform: translateX(4px) translateY(3px);
   }
 
   .zebra {
@@ -1300,7 +1308,7 @@ input[type="radio"]:checked + .form__radio-button {
   }
 
   .dada {
-    transform: translateX(-7px);
+    transform: translateX(-3px);
   }
 
   .cgf {
