@@ -150,25 +150,19 @@ const translations = [
   },
   {
     selector: '#case-5-about',
-    ru: 'гала-ивент в&nbsp;кинотеатре “Октябрь” перед стартом нового сезона.',
-    en: 'the gala event at the "October" cinema marking the start of Okko’s new season.'
+    ru: 'зимняя наружная кампания для&nbsp;диджитальных поверхностей аэропортов Москвы и&nbsp;Санкт-Петербурга, а&nbsp;также медиафасадов Розы-Хутор.',
+    en: 'winter dooh-campaign across digital airport screens in&nbsp;Moscow &&nbsp;St.&nbsp;Petersburg (incl.&nbsp;large-format) and&nbsp;the&nbsp;Rosa Khutor outdoor-led.'
   },
   {
     selector: '#case-5-impact',
-    ru: 'упаковка big&nbsp;idea, разработка визуальной айдентики, разверстка на&nbsp;различные носители и&nbsp;посмы.',
-    en: 'сreation of the big idea, visual identity developing and deployment across various media and posms.'
+    ru: 'разработка креативной концепции, написание сценария и&nbsp;супервизирование продакшена ии-видеоролика и&nbsp;моушен-графики на&nbsp;ресайзах (включая супер-вайды).',
+    en: 'led the creative end-to-end: concept development, ai-video spot scripting, production supervision (creative direction through delivery).'
   },
   {
-    selector: '#case-5-award-1',
-    ru: '<span class="case__description_color_red case__description_color_red_award">МедиаБренд 2023</span><br>лучший проморолик<br>специального события',
-    en: '<span class="case__description_color_red case__description_color_red_award">MediaBrand 2023</span><br>the best promo video<br>for a special event'
+    selector: '#case-5-title',
+    ru: 'островок',
+    en: 'ostrovok'
   },
-  {
-    selector: '#case-5-award-2',
-    ru: '<span class="case__description_color_red case__description_color_red_award">МедиаБренд 2023</span><br>лучший имиджевый<br>ролик онлайн-кинотеатра',
-    en: '<span class="case__description_color_red case__description_color_red_award">MediaBrand 2023</span><br>the best image video<br>for an online cinema'
-  },
- 
   { selector: '#caseBlueprint', ru: 'блюпринт', en: 'blueprint' },
   {
     selector: '#case-6-about',

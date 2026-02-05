@@ -54,10 +54,10 @@ function handleTwoColumnSwitch() {
 
 function areInSameRow(case1, case2) {
   const rowGroups = [
-    ['case-1', 'case-2'],
-    ['case-4', 'case-3'],
-    ['case-5', 'case-6'],
-    ['case-8', 'case-9']
+    ['case-1', 'case-8'],
+    ['case-9', 'case-5'],
+    ['case-3', 'case-2'],
+    ['case-4', 'case-6']
   ];
   const case1Id = case1.getAttribute('id');
   const case2Id = case2.getAttribute('id');

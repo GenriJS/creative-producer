@@ -585,7 +585,7 @@ label {
 }
 
 #case-2 {
-  order: 4;
+  order: 6;
 }
 
 #case-3 {
@@ -593,15 +593,15 @@ label {
 }
 
 #case-4 {
-  order: 6;
+  order: 8;
 }
 
 #case-5 {
-  order: 7;
+  order: 3;
 }
 
 #case-6 {
-  order: 8;
+  order: 7;
 }
 
 #case-7 {
@@ -609,11 +609,11 @@ label {
 }
 
 #case-8 {
-  order: 3;
+ order: 2;
 }
 
 #case-9 {
-  order: 2;
+  order: 4;
 }
 
 .case__cup {
@@ -1352,54 +1352,23 @@ input[type="radio"]:checked + .form__radio-button {
   }
 
   #case-1 {
-    order: 3;
-    background: #92B0C6;
-  }
-
-  #case-1 .case__header .case__switch svg circle {
-    fill: #92B0C6;
-  }
-
-  #case-1 .case__description h4 {
-    color: #4B5F6E;
+    order: 1;
   }
 
   #case-2 {
-    order: 4;
+    order: 6;
   }
 
   #case-3 {
-    order: 6;
-    background: #92B0C6;
-  }
-
-  #case-3 .case__header .case__switch svg circle {
-    fill: #92B0C6;
-  }
-
-  #case-3 .case__description h4 {
-    color: #4B5F6E;
-  }
-
-  #case-3 .case__description_color_green_award {
-    color: #4B5F6E;
+    order: 5;
   }
 
   #case-4 {
-    order: 5;
-    background: #90C081;
-  }
-
-  #case-4 .case__header .case__switch svg circle {
-    fill: #90C081;
-  }
-
-  #case-4 .case__description h4 {
-    color: #324C29;
+    order: 7;
   }
 
   #case-5 {
-    order: 7;
+    order: 4;
   }
 
   #case-6 {
@@ -1411,29 +1380,11 @@ input[type="radio"]:checked + .form__radio-button {
   }
 
   #case-8 {
-    order: 2;
-    background: #90C081;
-  }
-
-  #case-8 .case__header .case__switch svg circle {
-    fill: #90C081;
-  }
-
-  #case-8 .case__description h4 {
-    color: #324C29;
+  order: 2;
   }
 
   #case-9 {
-    order: 1;
-    background: #E89A8B;
-  }
-
-  #case-9 .case__header .case__switch svg circle {
-    fill: #E89A8B;
-  }
-
-  #case-9 .case__description h4 {
-    color: #9B4231;
+    order: 3;
   }
 
   .case__title {
