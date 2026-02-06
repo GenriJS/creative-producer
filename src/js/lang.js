@@ -150,8 +150,8 @@ const translations = [
   },
   {
     selector: '#case-5-about',
-    ru: 'зимняя наружная кампания для&nbsp;диджитальных поверхностей аэропортов Москвы и&nbsp;Санкт-Петербурга, а&nbsp;также медиафасадов Розы-Хутор.',
-    en: 'winter dooh-campaign across digital airport screens in&nbsp;Moscow &&nbsp;St.&nbsp;Petersburg (incl.&nbsp;large-format) and&nbsp;the&nbsp;Rosa Khutor outdoor-led.'
+    ru: 'зимняя наружная <a href="https://www.behance.net/gallery/243439485/Ostrovok-AI-DOOH" target="_blank">кампания</a> для&nbsp;диджитальных поверхностей аэропортов Москвы и&nbsp;Санкт-Петербурга, а&nbsp;также медиафасадов Розы-Хутор.',
+    en: 'winter <a href="https://www.behance.net/gallery/243439485/Ostrovok-AI-DOOH" target="_blank">dooh-campaign</a> across digital airport screens in&nbsp;Moscow &&nbsp;St.&nbsp;Petersburg (incl.&nbsp;large-format) and&nbsp;the&nbsp;Rosa Khutor outdoor-led.'
   },
   {
     selector: '#case-5-impact',
