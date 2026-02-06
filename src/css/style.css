@@ -638,23 +638,12 @@ label {
 .case video {
   background-color: #222220;
   object-fit: cover;
-  height: 153px
-}
-
-@media (min-width: 400px) { 
-  .case video {
-    height: 225px;
-  }
-}
-
-@media (min-width: 500px) { 
-  .case video {
-    height: 290px;
-  }
+  aspect-ratio: 455/225;
 }
 
 @media (min-width: 770px) { 
   .case video {
+    aspect-ratio: auto;
     height: 225px;
   }
 }
