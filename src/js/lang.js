@@ -155,7 +155,7 @@ const translations = [
   },
   {
     selector: '#case-5-impact',
-    ru: 'разработка креативной концепции, написание сценария и&nbsp;супервизирование продакшена ии&#8209видеоролика и&nbsp;моушен#8209;графики на&nbsp;ресайзах (включая супер&#8209вайды).',
+    ru: 'разработка креативной концепции, написание сценария и&nbsp;супервизирование продакшена ии&#8209видеоролика и&nbsp;моушен&#8209графики на&nbsp;ресайзах (включая супер&#8209вайды).',
     en: 'led the creative end&#8209;to&#8209;end: concept development, ai&#8209;video spot scripting, production supervision (creative direction through delivery).'
   },
   {
