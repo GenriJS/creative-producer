@@ -73,7 +73,7 @@ const translations = [
   { selector: '#navLinkCase', ru: 'кейсы', en: 'cases' },
   { selector: '#navLinkContact', ru: 'контакты', en: 'contact' },
   { selector: '.showreel__header', ru: 'креативный<br>тимлид', en: 'creative<br>team lead' },
-  { selector: '.showreel__text', ru: 'креативный<br>продюсер<br>старший<br>креатор', en: 'creative<br>producer<br>senior<br>creator' },
+  { selector: '.showreel__text', ru: 'креативный продюсер<br>старший креатор', en: 'creative producer<br>senior creator' },
   { 
     selector: '.showreel__play-hover', 
     ru: { src: '/src/img/icons/tooltip-ru.svg' }, 
