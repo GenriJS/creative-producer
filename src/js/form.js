@@ -3,7 +3,7 @@ document.getElementById('form').addEventListener('submit', function(e) {
 
     const formData = new FormData(this);
   
-    fetch('https://vladislavpodolian.com/server.php', {
+    fetch('https://telegram-bot.vladislavpodolian.workers.dev', {
         method: 'POST',
         body: formData
     })
